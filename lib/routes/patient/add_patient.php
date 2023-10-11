@@ -1,19 +1,19 @@
-<?php include("../layouts/header.php") ?>
-<?php include("../function/function.php"); ?>
+<?php include("../../layouts/header.php") ?>
+<?php include("../../function/function.php"); ?>
 
 <?php 
 
     if(empty($_SESSION['loginSession'])){
-        header("location:../../index.php");
+        header("location:../../../index.php");
     }
 
 ?>
 
-<link rel="stylesheet" href="../../css/style.css">
+<link rel="stylesheet" href="../../../css/style.css">
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/dashboard/">   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-    <link rel="stylesheet" href="../../css/dashboard.css">
+    <link rel="stylesheet" href="../../../css/dashboard.css">
 
 
     <style>
@@ -240,7 +240,7 @@
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Dashboard</h1>
+        <h1 class="h2">Add Patient</h1>
       </div>
 
       <h3>Date : 
@@ -254,7 +254,13 @@
       <hr>
 
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
-    
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="name">Patient's Name : </label>
+                    <input type="text" name="p_name" id="" class="form-control" placeholder="Patient's Name">
+                </div>
+                <div class="col-lg-6"></div>
+            </div>
         </form>
 
 
@@ -263,6 +269,6 @@
   </div>
 </div>
 
-    <script src="../../js/dashboard.js"></script>
+    <script src="../../../js/dashboard.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.2/dist/chart.umd.js" integrity="sha384-eI7PSr3L1XLISH8JdDII5YN/njoSsxfbrkCTnJrzXt+ENP5MOVBxD+l6sEG4zoLp" crossorigin="anonymous"></script><script src="dashboard.js"></script></body>
 </html>
