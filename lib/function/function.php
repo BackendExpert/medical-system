@@ -103,8 +103,12 @@
                             <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
                 </div>";
         }
+    }
 
+    function all_patients(){
+        $con = Connection();
 
+        
     }
 
 ?>
