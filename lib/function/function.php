@@ -81,6 +81,14 @@
 
     function add_patient($pfname, $plname, $pgender, $pmobile, $paddress, $medi){
         $con = Connection();
+
+        echo $pfname;
+        echo $plname;
+        echo $pgender;
+        echo $pmobile;
+        echo $paddress;
+        echo $medi;
+
     }
 
 ?>
