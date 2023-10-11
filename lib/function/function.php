@@ -113,7 +113,10 @@
         $all_patients_row = mysqli_fetch_assoc($all_patients_result);
 
         $patients = "
-
+            <tr>
+                <td></td>
+            
+            </tr>
         ";
 
         echo $patients;
