@@ -79,8 +79,8 @@
 
     }
 
-    function add_patient(){
-        $con = Connnection();
+    function add_patient($pfname, $plname, $pgender, $pmobile, $paddress, $medi){
+        $con = Connection();
     }
 
 ?>
