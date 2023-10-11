@@ -256,14 +256,51 @@
             <table class="table">
                 <thead class="table-dark">
                     <tr>
-                        <td>#</td>
-                        <td>NIC</td>
-                        <td>Name</td>
-                        <td>Address</td>
-                        <td>Mobile Number</td>
+                        <th>#</th>
+                        <th>NIC</th>
+                        <th>Name</th>
+                        <th>Address</th>
+                        <th>Mobile Number</th>
                     </tr>
                 </thead>
-                
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>200105101033</td>
+                        <td>Kamal</td>
+                        <td>Kandy</td>
+                        <td>0711758851</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>200105101033</td>
+                        <td>Kamal</td>
+                        <td>Kandy</td>
+                        <td>0711758851</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>200105101033</td>
+                        <td>Kamal</td>
+                        <td>Kandy</td>
+                        <td>0711758851</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>200105101033</td>
+                        <td>Kamal</td>
+                        <td>Kandy</td>
+                        <td>0711758851</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>200105101033</td>
+                        <td>Kamal</td>
+                        <td>Kandy</td>
+                        <td>0711758851</td>
+                    </tr>
+                </tbody>
+
             </table>
         </div>
 
