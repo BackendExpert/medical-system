@@ -51,7 +51,7 @@
     function sign_in($username, $pass){
         $con = Connection();
 
-        $check_login_user = "SELECT * FROM user_tbl WHERE username = '$username' && pass = '$pass'";
+        $check_login_user = "SELECT * FROM user_tbl WHERE username = '$username' && user_pass = '$pass'";
         $check_login_user_result = mysqli_query($con, $check_login_user);
         $check_login_user_nor = mysqli_num_rows($check_login_user_result);
         $check_login_user_row = mysqli_fetch_assoc($check_login_user_result);
