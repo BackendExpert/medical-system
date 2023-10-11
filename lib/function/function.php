@@ -187,4 +187,6 @@
 
         echo $p_nic_row['nic'];                
     }
+
+    
 ?>
