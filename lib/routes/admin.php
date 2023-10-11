@@ -259,7 +259,7 @@
                 <div class="card-header">Users</div>
                 <div class="card-body">
                     <h5 class="card-title">All Users</h5>
-                    <p class="card-text"><h3>400</h3></p>
+                    <p class="card-text"><h3><?php count_users(); ?></h3></p>
                 </div>
                 </div>
             </div>
@@ -268,7 +268,7 @@
                     <div class="card-header">Patients</div>
                     <div class="card-body">
                         <h5 class="card-title">All Patients</h5>
-                        <p class="card-text"><h3>400</h3></p>
+                        <p class="card-text"><h3><?php count_patient(); ?></h3></p>
                     </div>
                 </div>
             </div>
@@ -279,7 +279,7 @@
                 <div class="card-header">Today's Patients</div>
                 <div class="card-body">
                     <h5 class="card-title">Today Patients</h5>
-                    <p class="card-text"><h3><?php count_users(); ?></h3></p>
+                    <p class="card-text"><h3>20</h3></p>
                 </div>
                 </div>
             </div>
