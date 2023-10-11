@@ -14,10 +14,10 @@
                 </div>
                 <div class="card-body login-body">
                     <?php 
-                        if(isset($_POST['signin'])){
-                            $result = sign_in($_POST['username'], md5($_POST['password']));
-                            echo $result;
-                        }
+                        // if(isset($_POST['signin'])){
+                        //     $result = sign_in($_POST['username'], md5($_POST['password']));
+                        //     echo $result;
+                        // }
                     ?>
 
                     <form action="<?php echo($_SERVER["PHP_SELF"]); ?>" method="POST">
