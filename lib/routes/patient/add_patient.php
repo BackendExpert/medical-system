@@ -289,6 +289,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <label for="Address"><strong>Address: </strong></label>
+                    <textarea name="p_address" id="" class="form-control"></textarea>
                 </div>
             </div>
         </form>
