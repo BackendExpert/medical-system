@@ -87,7 +87,7 @@
         $check_patients_nor = mysqli_num_rows($check_patients_result);
 
         if($check_patients_nor >= 0){
-            $insert_patient = "INSERT INTO patients_tbl()"
+            $insert_patient = "INSERT INTO patients_tbl(nic,fname,lname,)"
         }
         else{
             echo "yesssssssssss";
