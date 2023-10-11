@@ -110,7 +110,7 @@
 
         $all_patients = "SELECT * FROM patients_tbl";
         $all_patients_result = mysqli_query($con, $all_patients);
-        $all_patients_row = mysqli_fetch_assoc($all_patients_result);
+
 
         $is_table_empty = "SELECT COUNT(*) as id FROM patients_tbl";
         $is_table_empty_result = mysqli_query($con, $is_table_empty);
@@ -123,31 +123,15 @@
                 echo "Table is Empty";
             }
             else{
-                $patients = "
-                <tr>
-                    <td><b>".$all_patients_row['id']."</b></td>
-                    <td>".$all_patients_row['nic']."</td>
-                    <td>".$all_patients_row['fname']."</td>
-                    <td>".$all_patients_row['join_at']."</td>
-                    <td>";
-                        if($all_patients_row['gender'] == "male"){
-                            $patients .="<i class='fas fa-male'></i> Male";
-                        }
-                        elseif($all_patients_row['gender'] == "female"){
-                            $patients .="<i class='fas fa-female'></i> Female";
-                        }
-                    
-                    
-                    $patients .= "</td>
-                    <td>
-                        <a href=''><button class='btn btn-info'><i class='fas fa-eye'></i> View</button></a>
-                        <a href=''><button class='btn btn-warning'><i class='fas fa-pen'></i> Edit</button></a>
-                    </td>
-                
-                </tr>
-            ";
+                while($row = mysqli_fetch_assoc($all_patients_result)){
+                    $patient = "
+                        <tr>
+                            <td></td>
+                        </tr>
+                    ";
+                }
     
-            echo $patients;
+
             }
         }
     }

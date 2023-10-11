@@ -261,7 +261,6 @@
             <table class="table">
                 <thead class="table-primary">
                     <tr>
-                        <th>#</th>
                         <th>NIC</th>
                         <th>Name</th>
                         <th>First Date</th>
