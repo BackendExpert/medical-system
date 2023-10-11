@@ -57,7 +57,7 @@
         $check_login_user_row = mysqli_fetch_assoc($check_login_user_result);
 
         if($check_login_user_nor > 0){
-            if($pass == $check_login_user_row['pass']){
+            if($pass == $check_login_user_row['user_pass']){
                 if(($check_login_user_row['user_type'] == 'user')){
                     setcookie('login',$check_login_user_row['email'],time()+60*60,'/');
                     $_SESSION['loginSession'] = $check_login_user_row['email'];
