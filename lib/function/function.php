@@ -93,6 +93,8 @@
             $channling_data = "INSERT INTO channeling_date_tbl(nic,ch_date,booked_date)VALUES('$nic','$next_ch_date',NOW())";
             $channling_data_result = mysqli_query($con, $channling_data);
 
+            $inset_medicine = "INSERT INTO medicine_tbl()"
+
             echo "
             <script>
                 window.location = '../patients.php';
