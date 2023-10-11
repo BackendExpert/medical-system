@@ -117,6 +117,7 @@
 
         if($is_table_empty_result){
             $empty_row = mysqli_fetch_assoc($is_table_empty_result);
+            $id_count = $empty_row['id'];
         }
 
         $patients = "
