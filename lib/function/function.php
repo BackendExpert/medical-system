@@ -79,4 +79,8 @@
 
     }
 
+    function add_patient(){
+        $con = Connnection();
+    }
+
 ?>
