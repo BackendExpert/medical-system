@@ -268,7 +268,15 @@
         <h1 class="h2">Dashboard</h1>
       </div>
 
-      
+        <div class="row">
+            <div class="col-lg-6">
+
+            </div>
+            <div class="col-lg-6">
+                
+            </div>
+        </div>
+
 
     </main>
   </div>
