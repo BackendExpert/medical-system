@@ -254,6 +254,7 @@
 
       <br>
       <a href="patient/add_patient.php"><button class="btn btn-success"><i class="fas fa-user-plus"></i> New Patient</button></a>
+      <a href="patient/search_patient.php"><button class="btn btn-info"><i class="fas fa-search"></i> Search Patient</button></a>
 
       <hr>
         <div class="table-responsive">
