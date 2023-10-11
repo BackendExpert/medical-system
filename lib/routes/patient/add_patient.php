@@ -309,7 +309,7 @@
             <br>
             <div class="row">
                 <div class="col-lg-5">
-                    <input type="submit" value="Add Patient" class="btn btn-success" name="add_patient" style="width: 100%;">
+                    <input type="submit" value="Add Patient" class="btn btn-success" name="add_patient" style="width: 100%; height:50px;">
                 </div>
                 <div class="col-lg-1">&nbsp;&nbsp;</div>
                 <div class="col-lg-6">
