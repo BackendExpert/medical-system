@@ -262,12 +262,19 @@
 
         <?php 
             if(isset($_POST['add_patient'])){
-                $result = add_patient($_POST['p_fname'], $_POST['p_lname'],$_POST['gender'],$_POST['p_mobile'],$_POST['p_address'],$_POST['p_given_medi']);
+                $result = add_patient($_POST['p_nic'], $_POST['p_fname'], $_POST['p_lname'],$_POST['gender'],$_POST['p_mobile'],$_POST['p_address'],$_POST['p_given_medi']);
                 echo $result;
             }
         ?>
 
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
+            <div class="row">
+                <div class="col-lg-12">
+                    <label for="nic"><strong>Patient NIC</strong></label>
+                    <input type="text" name="p_nic" id="" class="form-control" placeholder="Patient NIC">
+                </div>
+            </div>
+            <br>
             <div class="row">
                 <div class="col-lg-5">
                     <label for="name"><strong>Patient's First Name : </strong></label>
