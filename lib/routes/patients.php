@@ -253,7 +253,7 @@
       </h3>
 
       <br>
-      <a href="add_patient.php"><button class="btn btn-success"><i class="fas fa-user-plus"></i> New Patient</button></a>
+      <a href="patient/add_patient.php"><button class="btn btn-success"><i class="fas fa-user-plus"></i> New Patient</button></a>
 
       <hr>
         <div class="table-responsive">
