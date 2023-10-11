@@ -252,7 +252,9 @@
 
       </h3>
       <hr>
-
+        <div class="table-responsive">
+            
+        </div>
 
 
     </main>
