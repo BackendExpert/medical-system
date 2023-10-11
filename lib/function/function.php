@@ -142,11 +142,12 @@
             echo $patients;
             }
         }
+    }
 
+    function count_users(){
+        $con = Connection();
 
-
-
-
+        
     }
 
 ?>
