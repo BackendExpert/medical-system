@@ -127,6 +127,18 @@
                     $patient = "
                         <tr>
                             <td>".$row['nic']."</td>
+                            <td>".$row['fname']."</td>
+                            <td>".$row['join_at']."</td>";
+
+                            if($row['gender'] == "male"){
+                                $patient .="<i class='fas fa-male'></i> Male";
+                            }
+                            elseif($row['gender'] == "female"){
+                                $patient .="<i class='fas fa-female'></i> Female";
+                            }
+
+                            $patient .="
+
                         </tr>
                     ";
 
