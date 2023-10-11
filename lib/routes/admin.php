@@ -293,8 +293,8 @@
                 <div class="card text-bg-warning mb-3" style="max-width: 100%;">
                 <div class="card-header">Today's Patients</div>
                 <div class="card-body">
-                    <h5 class="card-title">Primary card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Today Patients</h5>
+                    <p class="card-text">20</p>
                 </div>
                 </div>
             </div>
@@ -302,8 +302,8 @@
                 <div class="card text-bg-danger mb-3" style="max-width: 100%;">
                     <div class="card-header">Today's Absent Patients</div>
                     <div class="card-body">
-                        <h5 class="card-title">Primary card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Today Absent Patients</h5>
+                        <p class="card-text">5</p>
                     </div>
                 </div>
             </div>
