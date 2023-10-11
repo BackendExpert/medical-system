@@ -91,7 +91,7 @@
             $insert_patient_result = mysqli_query($con, $insert_patient);
 
             if($insert_patient_result){
-                header("location:../patients.php");
+                header("location:../routes/patients.php");
             }
         }
         else{
