@@ -131,13 +131,17 @@
                             <td>".$row['join_at']."</td>";
 
                             if($row['gender'] == "male"){
-                                $patient .="<i class='fas fa-male'></i> Male";
+                                $patient .="<td><i class='fas fa-male'></i> Male </td>";
                             }
                             elseif($row['gender'] == "female"){
-                                $patient .="<i class='fas fa-female'></i> Female";
+                                $patient .="<td><i class='fas fa-female'></i> Female </td>";
                             }
 
                             $patient .="
+                            <td>
+                                <a href=''><button class='btn btn-info'><i class='fas fa-eye'></i> View</button></a>
+                                <a href=''><button class='btn btn-warning'><i class='fas fa-pen'></i> Edit</button></a>
+                            </td>
 
                         </tr>
                     ";
