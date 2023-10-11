@@ -299,11 +299,20 @@
                     <textarea name="p_address" id="" class="form-control pAddress" placeholder="Patient Addresss"></textarea>
                 </div>
             </div>
-
+            <br>
             <div class="row">
                 <div class="col-lg-12">
                     <label for="medi"><strong>Given Medicine</strong></label>
                     <textarea name="p_address" id="" class="form-control pAddress" placeholder="Given Medicine"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5">
+                    
+                </div>
+                <div class="col-lg-1">&nbsp;&nbsp;</div>
+                <div class="col-lg-6">
+                    
                 </div>
             </div>
         </form>
