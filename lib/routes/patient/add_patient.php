@@ -271,7 +271,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <label for="nic"><strong>Patient NIC</strong></label>
-                    <input type="text" name="p_nic" id="" class="form-control" placeholder="Patient NIC">
+                    <input type="text" name="p_nic" id="" class="form-control" placeholder="Patient NIC" required>
                 </div>
             </div>
             <br>

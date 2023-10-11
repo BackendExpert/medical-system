@@ -82,7 +82,7 @@
     function add_patient($nic, $pfname, $plname, $pgender, $pmobile, $paddress, $medi){
         $con = Connection();
 
-        $check_p = "SELECT * FROM patients_tbl WHERE nic = '"
+
 
 
     }
