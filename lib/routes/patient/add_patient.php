@@ -289,14 +289,21 @@
                 <div class="col-lg-1">&nbsp;&nbsp;</div>
                 <div class="col-lg-6">
                     <label for="name"><strong>Mobile Number : </strong></label>
-                    <input type="text" name="p_lname" id="" class="form-control" placeholder="Patient's Last Name">
+                    <input type="text" name="p_lname" id="" class="form-control" placeholder="Patient's Mobile Number">
                 </div>
             </div>
             <br>
             <div class="row">
                 <div class="col-lg-12">
                     <label for="Address"><strong>Address: </strong></label>
-                    <textarea name="p_address" id="" class="form-control pAddress"></textarea>
+                    <textarea name="p_address" id="" class="form-control pAddress" placeholder="Patient Addresss"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <label for="medi">Given Medicine</label>
+                    <textarea name="p_address" id="" class="form-control pAddress" placeholder="Patient Addresss"></textarea>
                 </div>
             </div>
         </form>
