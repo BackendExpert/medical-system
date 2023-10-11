@@ -312,7 +312,7 @@
                 </div>
                 <div class="col-lg-1">&nbsp;&nbsp;</div>
                 <div class="col-lg-6">
-                    <input type="reset" value="Reset" class="btn btn-success" name="add_patient">
+                    <input type="reset" value="Reset" class="btn btn-secondary">
                 </div>
             </div>
         </form>
