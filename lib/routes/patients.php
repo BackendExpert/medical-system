@@ -265,8 +265,7 @@
                         <th>NIC</th>
                         <th>Name</th>
                         <th>First Date</th>
-                        <th>Channeling Date</th>
-                        <th>New Channeling Date</th>
+                        <th>Gender</th>
                         <th>Action</th>
                     </tr>
                 </thead>
