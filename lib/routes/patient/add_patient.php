@@ -264,24 +264,24 @@
             <div class="row">
                 <div class="col-lg-5">
                     <label for="name"><strong>Patient's First Name : </strong></label>
-                    <input type="text" name="p_fname" id="" class="form-control" placeholder="Patient's First Name">
+                    <input type="text" name="p_fname" id="" class="form-control" placeholder="Patient's First Name" required>
                 </div>
                 <div class="col-lg-1">&nbsp;&nbsp;</div>
                 <div class="col-lg-6">
                     <label for="lname"><strong>Patient's Last Name : </strong></label>
-                    <input type="text" name="p_lname" id="" class="form-control" placeholder="Patient's Last Name">
+                    <input type="text" name="p_lname" id="" class="form-control" placeholder="Patient's Last Name" required>
                 </div>
             </div>
             <br>
             <div class="row">
                 <div class="col-lg-5">
                     <label for="Gender"><strong>Gender : </strong></label><br>
-                    <input class="form-check-input" type="radio" name="gender" id="gender" value="male">
+                    <input class="form-check-input" type="radio" name="gender" id="gender" value="male" required>
                     <label class="form-check-label" for="male">
                         Male
                     </label>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input class="form-check-input" type="radio" name="gender" id="gender" value="female">
+                    <input class="form-check-input" type="radio" name="gender" id="gender" value="female" required>
                     <label class="form-check-label" for="female">
                         Female
                     </label>
@@ -289,21 +289,21 @@
                 <div class="col-lg-1">&nbsp;&nbsp;</div>
                 <div class="col-lg-6">
                     <label for="name"><strong>Mobile Number : </strong></label>
-                    <input type="text" name="p_lname" id="" class="form-control" placeholder="Patient's Mobile Number">
+                    <input type="text" name="p_lname" id="" class="form-control" placeholder="Patient's Mobile Number" required>
                 </div>
             </div>
             <br>
             <div class="row">
                 <div class="col-lg-12">
                     <label for="Address"><strong>Address: </strong></label>
-                    <textarea name="p_address" id="" class="form-control pAddress" placeholder="Patient Addresss"></textarea>
+                    <textarea name="p_address" id="" class="form-control pAddress" placeholder="Patient Addresss" required></textarea>
                 </div>
             </div>
             <br>
             <div class="row">
                 <div class="col-lg-12">
                     <label for="medi"><strong>Given Medicine</strong></label>
-                    <textarea name="p_address" id="" class="form-control pAddress" placeholder="Given Medicine"></textarea>
+                    <textarea name="p_address" id="" class="form-control pAddress" placeholder="Given Medicine" required></textarea>
                 </div>
             </div>
             <br>
