@@ -110,7 +110,8 @@
 
         $all_patients = "SELECT * FROM patients_tbl";
         $all_patients_result = mysqli_query($con, $all_patients);
-        
+        $all_patients_row = mysqli_fetch_assoc($all_patients_result);
+
 
     }
 
