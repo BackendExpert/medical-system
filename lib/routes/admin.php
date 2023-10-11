@@ -253,12 +253,10 @@
 
           <ul class="nav flex-column mb-auto">
             <li class="nav-item">
-                <div style="color:red;">
-                    <a class="nav-link d-flex align-items-center gap-2" href="#">
+                    <a class="nav-link d-flex align-items-center gap-2" href="#" style="color: red;;">
                         <svg class="bi"><use xlink:href="#door-closed"/></svg>
                         Sign out
                     </a>
-                </div>
             </li>
           </ul>
         </div>
@@ -270,9 +268,7 @@
         <h1 class="h2">Dashboard</h1>
       </div>
 
-
-
-      <h2>Section title</h2>
+      
 
     </main>
   </div>
