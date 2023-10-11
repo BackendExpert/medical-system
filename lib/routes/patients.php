@@ -265,6 +265,7 @@
                         <th>Name</th>
                         <th>Fist Date</th>
                         <th>Channeling Date</th>
+                        <th>New Channeling Date</th>
                         <th>Action</th>
                     </tr>
                 </thead>
@@ -275,6 +276,7 @@
                         <td>Kamal</td>
                         <td>11.10.2023</td>
                         <td>11.10.2023</td>
+                        <td>14.10.2023</td>
                         <td>
                             <a href=""><button class="btn btn-info"><i class="fas fa-eye"></i> View</button></a>
                         </td>
