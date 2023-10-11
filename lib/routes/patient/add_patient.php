@@ -302,8 +302,8 @@
 
             <div class="row">
                 <div class="col-lg-12">
-                    <label for="medi">Given Medicine</label>
-                    <textarea name="p_address" id="" class="form-control pAddress" placeholder="Patient Addresss"></textarea>
+                    <label for="medi"><strong>Given Medicine</strong></label>
+                    <textarea name="p_address" id="" class="form-control pAddress" placeholder="Given Medicine"></textarea>
                 </div>
             </div>
         </form>
