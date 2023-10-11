@@ -251,6 +251,10 @@
       ?>
 
       </h3>
+
+      <br>
+      <a href=""><button class="btn btn-success"><i class="fas fa-user-plus"></i> New Patient</button></a>
+
       <hr>
         <div class="table-responsive">
             <table class="table">
