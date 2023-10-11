@@ -243,7 +243,14 @@
         <h1 class="h2">Dashboard</h1>
       </div>
 
-      <h3>Date : </h3>
+      <h3>Date : 
+
+      <?php 
+        $currentDate = date('l, F j, Y');
+        echo $currentDate;
+      ?>
+
+      </h3>
       <hr>
 
         <div class="row">
