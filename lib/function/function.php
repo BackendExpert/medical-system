@@ -154,4 +154,15 @@
         echo $count_user_nor;
     }
 
+    function count_patient(){
+        $con = Connection();
+
+        $count_patients = "SELECT * FROM patients_tbl";
+        $count_patients_result = mysqli_query($con, $count_patients);
+        $count_patients_nor = mysqli_num_rows($count_patients_result);
+
+        echo $count_patients_nor;
+    }
+
+
 ?>
