@@ -175,4 +175,9 @@
     }
 
 
+    function patient_nic(){
+        $con = Connection();
+
+        echo $id = $_GET['id'];
+    }
 ?>
