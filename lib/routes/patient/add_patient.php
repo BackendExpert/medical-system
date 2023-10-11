@@ -258,10 +258,13 @@
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
             <div class="row">
                 <div class="col-lg-6">
-                    <label for="name">Patient's Name : </label>
-                    <input type="text" name="p_name" id="" class="form-control" placeholder="Patient's Name">
+                    <label for="name"><strong>Patient's First Name : </strong></label>
+                    <input type="text" name="p_name" id="" class="form-control" placeholder="Patient's First Name">
                 </div>
-                <div class="col-lg-6"></div>
+                <div class="col-lg-6">
+                    <label for="name"><strong>Patient's Last Name : </strong></label>
+                    <input type="text" name="p_name" id="" class="form-control" placeholder="Patient's Last Name">
+                </div>
             </div>
         </form>
 
