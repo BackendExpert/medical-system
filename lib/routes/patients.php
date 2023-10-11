@@ -263,8 +263,8 @@
                         <th>#</th>
                         <th>NIC</th>
                         <th>Name</th>
-                        <th>Address</th>
-                        <th>Mobile Number</th>
+                        <th>Fist Date</th>
+                        <th></th>
                     </tr>
                 </thead>
                 <tbody>
