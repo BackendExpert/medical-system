@@ -306,13 +306,14 @@
                     <textarea name="p_address" id="" class="form-control pAddress" placeholder="Given Medicine"></textarea>
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="col-lg-5">
-                    <input type="submit" value="Add Patient" class="btn btn-success" name="add_patient">
+                    <input type="submit" value="Add Patient" class="btn btn-success" name="add_patient" style="width: 100%;">
                 </div>
                 <div class="col-lg-1">&nbsp;&nbsp;</div>
                 <div class="col-lg-6">
-                    <input type="reset" value="Reset" class="btn btn-secondary">
+                    <input type="reset" value="Reset" class="btn btn-secondary" style="width: 100%;">
                 </div>
             </div>
         </form>
