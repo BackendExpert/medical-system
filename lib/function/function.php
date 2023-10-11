@@ -129,7 +129,16 @@
                     <td>".$all_patients_row['nic']."</td>
                     <td>".$all_patients_row['fname']."</td>
                     <td>".$all_patients_row['join_at']."</td>
-                    <td>".$all_patients_row['gender']."</td>
+                    <td>";
+                        if($all_patients_row['gender'] == "male"){
+                            $patients .="<i class='fas fa-male'></i> Male";
+                        }
+                        elseif($all_patients_row['gender'] == "female"){
+                            $patients .="<i class='fas fa-male'></i> Female";
+                        }
+                    
+                    
+                    $patients .= "</td>
                     <td>
                         <a href=''><button class='btn btn-info'><i class='fas fa-eye'></i> View</button></a>
                         <a href=''><button class='btn btn-warning'><i class='fas fa-pen'></i> Edit</button></a>
