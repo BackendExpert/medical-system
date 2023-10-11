@@ -275,36 +275,7 @@
                         <td>Kandy</td>
                         <td>0711758851</td>
                     </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>200105101033</td>
-                        <td>Kamal</td>
-                        <td>Kandy</td>
-                        <td>0711758851</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>200105101033</td>
-                        <td>Kamal</td>
-                        <td>Kandy</td>
-                        <td>0711758851</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>200105101033</td>
-                        <td>Kamal</td>
-                        <td>Kandy</td>
-                        <td>0711758851</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>200105101033</td>
-                        <td>Kamal</td>
-                        <td>Kandy</td>
-                        <td>0711758851</td>
-                    </tr>
                 </tbody>
-
             </table>
         </div>
 
