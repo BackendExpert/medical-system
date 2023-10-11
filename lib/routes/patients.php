@@ -271,7 +271,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php ?>
+                    <?php all_patients(); ?>
 
                     <!-- <tr>
                         <td>1</td>
