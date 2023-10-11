@@ -123,26 +123,27 @@
                 echo "Table is Empty";
             }
             else{
-                echo "Table not Empty........!";
+                $patients = "
+                <tr>
+                    <td><b>".$all_patients_row['id']."</b></td>
+                    <td>".$all_patients_row['nic']."</td>
+                    <td>".$all_patients_row['fname']."</td>
+                    <td>".$all_patients_row['join_at']."</td>
+                    <td></td>
+                    <td></td>
+                    <td>
+                    
+                    </td>
+                
+                </tr>
+            ";
+    
+            echo $patients;
             }
         }
-        
 
-        // $patients = "
-        //     <tr>
-        //         <td>".$all_patients_row['nic']."</td>
-        //         <td>".$all_patients_row['fname']."</td>
-        //         <td>".$all_patients_row['join_at']."</td>
-        //         <td></td>
-        //         <td></td>
-        //         <td>
-                
-        //         </td>
-            
-        //     </tr>
-        // ";
 
-        // echo $patients;
+
 
 
     }
