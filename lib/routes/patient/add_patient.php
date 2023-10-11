@@ -93,6 +93,11 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
+      .pAddress{
+        width: 100%;
+        height: 150px;
+        resize: none;
+      }
     </style>
 
     
@@ -257,10 +262,11 @@
 
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <label for="name"><strong>Patient's First Name : </strong></label>
                     <input type="text" name="p_fname" id="" class="form-control" placeholder="Patient's First Name">
                 </div>
+                <div class="col-lg-1">&nbsp;&nbsp;</div>
                 <div class="col-lg-6">
                     <label for="lname"><strong>Patient's Last Name : </strong></label>
                     <input type="text" name="p_lname" id="" class="form-control" placeholder="Patient's Last Name">
@@ -268,7 +274,7 @@
             </div>
             <br>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <label for="Gender"><strong>Gender : </strong></label><br>
                     <input class="form-check-input" type="radio" name="gender" id="gender" value="male">
                     <label class="form-check-label" for="male">
@@ -280,6 +286,7 @@
                         Female
                     </label>
                 </div>
+                <div class="col-lg-1">&nbsp;&nbsp;</div>
                 <div class="col-lg-6">
                     <label for="name"><strong>Mobile Number : </strong></label>
                     <input type="text" name="p_lname" id="" class="form-control" placeholder="Patient's Last Name">
@@ -289,7 +296,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <label for="Address"><strong>Address: </strong></label>
-                    <textarea name="p_address" id="" class="form-control"></textarea>
+                    <textarea name="p_address" id="" class="form-control pAddress"></textarea>
                 </div>
             </div>
         </form>
