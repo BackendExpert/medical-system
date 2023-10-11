@@ -279,6 +279,7 @@
                         <td>14.10.2023</td>
                         <td>
                             <a href=""><button class="btn btn-info"><i class="fas fa-eye"></i> View</button></a>
+                            <a href=""><button class="btn btn-warning"><i class="fas fa-pen"></i> Edit</button></a>
                         </td>
                     </tr>
                 </tbody>
