@@ -147,7 +147,11 @@
     function count_users(){
         $con = Connection();
 
-        
+        $count_user = "SELECT * FROM user_tbl";
+        $count_user_result = mysqli_query($con, $count_user);
+        $count_user_nor = mysqli_num_rows($count_user_result);
+
+        echo $count_user_nor;
     }
 
 ?>
