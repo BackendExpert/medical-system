@@ -262,7 +262,7 @@
 
         <?php 
             if(isset($_POST['add_patient'])){
-                $result = add_patient($_POST['p_nic'], $_POST['p_fname'], $_POST['p_lname'],$_POST['gender'],$_POST['p_mobile'],$_POST['p_address'],$_POST['p_given_medi']);
+                $result = add_patient($_POST['p_nic'], $_POST['p_fname'], $_POST['p_lname'],$_POST['gender'],$_POST['p_mobile'],$_POST['p_address'],$_POST['p_given_medi'],$_POST['next_ch_date']);
                 echo $result;
             }
         ?>
