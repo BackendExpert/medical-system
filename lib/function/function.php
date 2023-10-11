@@ -86,7 +86,7 @@
         $check_patients_result = mysqli_query($con, $check_patients);
         $check_patients_nor = mysqli_num_rows($check_patients_result);
 
-        if($check_patients_nor >= 0){
+        if($check_patients_nor <= 0){
             echo "noooooooooooooo";
         }
         else{
