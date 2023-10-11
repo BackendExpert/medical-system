@@ -251,6 +251,7 @@
       ?>
 
       </h3>
+      <a href="../patients.php"><button class="btn btn-primary">Back</button></a>
       <hr>
 
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
