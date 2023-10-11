@@ -259,11 +259,24 @@
             <div class="row">
                 <div class="col-lg-6">
                     <label for="name"><strong>Patient's First Name : </strong></label>
-                    <input type="text" name="p_name" id="" class="form-control" placeholder="Patient's First Name">
+                    <input type="text" name="p_fname" id="" class="form-control" placeholder="Patient's First Name">
                 </div>
                 <div class="col-lg-6">
                     <label for="name"><strong>Patient's Last Name : </strong></label>
-                    <input type="text" name="p_name" id="" class="form-control" placeholder="Patient's Last Name">
+                    <input type="text" name="p_lname" id="" class="form-control" placeholder="Patient's Last Name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="name"><strong>Gender : </strong></label>
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Default radio
+                    </label>
+                </div>
+                <div class="col-lg-6">
+                    <label for="name"><strong>Mobile Number : </strong></label>
+                    <input type="text" name="p_lname" id="" class="form-control" placeholder="Patient's Last Name">
                 </div>
             </div>
         </form>
