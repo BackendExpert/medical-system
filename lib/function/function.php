@@ -82,7 +82,8 @@
     function add_patient($nic, $pfname, $plname, $pgender, $pmobile, $paddress, $medi){
         $con = Connection();
 
-        $check_p = "SELECT * FROM "
+        $check_patients = "SELECT * FROM patients_tbl WHERE nic = '$nic'";
+        $check_patients_result = mysqli_query($con, $check_patients);
 
 
     }
