@@ -322,6 +322,13 @@
             </div>
             <br>
             <div class="row">
+                <div class="col-lg-12">
+                    <label for="ch_date"><strong>Next Channeling Date : </strong></label>
+                    <input type="date" name="next_ch_date" id="" class="form-control">
+                </div>
+            </div>
+            <br>
+            <div class="row">
                 <div class="col-lg-5">
                     <input type="submit" value="Add Patient" class="btn btn-success" name="add_patient" style="width: 100%; height:50px;">
                 </div>
