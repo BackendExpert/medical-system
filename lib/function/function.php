@@ -79,7 +79,7 @@
 
     }
 
-    function add_patient($nic, $pfname, $plname, $pgender, $pmobile, $paddress, $medi){
+    function add_patient($nic, $pfname, $plname, $pgender, $pmobile, $paddress, $medi, $next_ch_date){
         $con = Connection();
 
         $check_patients = "SELECT * FROM patients_tbl WHERE nic = '$nic'";
