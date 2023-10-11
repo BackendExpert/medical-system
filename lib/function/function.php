@@ -90,7 +90,8 @@
             $insert_patient = "INSERT INTO patients_tbl(nic,fname,lname,gender,mobile_no,address,join_at,update_at)VALUES('$nic','$pfname','$plname','$pgender','$pmobile','$paddress',NOW(), NOW())";
             $insert_patient_result = mysqli_query($con, $insert_patient);
 
-            $channling_data = "INSERT INTO channeling_date_tbl(nic,ch_date,booked_date)";
+            $channling_data = "INSERT INTO channeling_date_tbl(nic,ch_date,booked_date)VALUES('$nic','$next_ch_date',NOW())";
+            $channling_data_result = mysqli_query($con, $channling_data);
 
             echo "
             <script>
