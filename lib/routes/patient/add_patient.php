@@ -243,14 +243,14 @@
         <h1 class="h2">Add Patient</h1>
       </div>
 
-      <h3>Date : 
+      <h4>Date : 
 
       <?php 
         $currentDate = date('l, F j, Y');
         echo $currentDate;
       ?>
 
-      </h3>
+      </h4>
       <br>
       <a href="../patients.php"><button class="btn btn-primary">Back</button></a>
       <hr>
@@ -262,21 +262,33 @@
                     <input type="text" name="p_fname" id="" class="form-control" placeholder="Patient's First Name">
                 </div>
                 <div class="col-lg-6">
-                    <label for="name"><strong>Patient's Last Name : </strong></label>
+                    <label for="lname"><strong>Patient's Last Name : </strong></label>
                     <input type="text" name="p_lname" id="" class="form-control" placeholder="Patient's Last Name">
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="col-lg-6">
-                    <label for="name"><strong>Gender : </strong></label>
-                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                    <label class="form-check-label" for="flexRadioDefault1">
-                        Default radio
+                    <label for="Gender"><strong>Gender : </strong></label><br>
+                    <input class="form-check-input" type="radio" name="gender" id="gender" value="male">
+                    <label class="form-check-label" for="male">
+                        Male
+                    </label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input class="form-check-input" type="radio" name="gender" id="gender" value="female">
+                    <label class="form-check-label" for="female">
+                        Female
                     </label>
                 </div>
                 <div class="col-lg-6">
                     <label for="name"><strong>Mobile Number : </strong></label>
                     <input type="text" name="p_lname" id="" class="form-control" placeholder="Patient's Last Name">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-12">
+                    <label for="Address"><strong>Address: </strong></label>
                 </div>
             </div>
         </form>
