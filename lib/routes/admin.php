@@ -1,6 +1,15 @@
 <?php include("../layouts/header.php") ?>
 <?php include("../function/function.php"); ?>
 
+<?php 
+    include("../function/function.php");
+
+    if(empty($_SESSION['LoginSession'])){
+        header("location:../../index.php");
+    }
+
+?>
+
 <link rel="stylesheet" href="../../css/style.css">
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/dashboard/">   
