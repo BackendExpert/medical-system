@@ -260,6 +260,13 @@
       <a href="../patients.php"><button class="btn btn-primary">Back</button></a>
       <hr>
 
+        <?php 
+            if(isset($_POST['add_patient'])){
+                $result = add_patient($_POST['p_fname'], $_POST['p_lname'],$_POST['gender'],$_POST['p_mobile'],$_POST['p_address'],$_POST['p_given_medi']);
+                echo $result;
+            }
+        ?>
+
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
             <div class="row">
                 <div class="col-lg-5">
@@ -289,7 +296,7 @@
                 <div class="col-lg-1">&nbsp;&nbsp;</div>
                 <div class="col-lg-6">
                     <label for="name"><strong>Mobile Number : </strong></label>
-                    <input type="text" name="p_lname" id="" class="form-control" placeholder="Patient's Mobile Number" required>
+                    <input type="text" name="p_mobile" id="" class="form-control" placeholder="Patient's Mobile Number" required>
                 </div>
             </div>
             <br>
@@ -303,7 +310,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <label for="medi"><strong>Given Medicine</strong></label>
-                    <textarea name="p_address" id="" class="form-control pAddress" placeholder="Given Medicine" required></textarea>
+                    <textarea name="p_given_medi" id="" class="form-control pAddress" placeholder="Given Medicine" required></textarea>
                 </div>
             </div>
             <br>
