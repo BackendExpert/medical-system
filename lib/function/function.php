@@ -114,7 +114,12 @@
 
         $patients = "
             <tr>
-                <td></td>
+                <td>".$all_patients_row['nic']."</td>
+                <td>".$all_patients_row['nic']."</td>
+                <td>".$all_patients_row['nic']."</td>
+                <td>".$all_patients_row['nic']."</td>
+                <td>".$all_patients_row['nic']."</td>
+                <td>".$all_patients_row['nic']."</td>
             
             </tr>
         ";
