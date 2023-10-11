@@ -3,7 +3,7 @@
         $server = "localhost";
         $user = "root";
         $pass = "";
-        $db_name = "e_chat_db";
+        $db_name = "medical_system_db";
 
         $con = mysqli_connect($server,$user,$pass,$db_name);
 
