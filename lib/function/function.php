@@ -86,12 +86,12 @@
         $check_patients_result = mysqli_query($con, $check_patients);
         $check_patients_nor = mysqli_num_rows($check_patients_result);
 
-        if($check_patients_nor >= 0){
+        if($check_patients_nor <= 0){
             $insert_patient = "INSERT INTO patients_tbl(nic,fname,lname,gender,mobile_no,address,join_at,update_at)VALUES('$nic','$pfname','$plname','$pgender','$pmobile','$paddress',NOW(), NOW())";
             $insert_patient_result = mysqli_query($con, $insert_patient);
 
             if($insert_patient_result){
-                header("location:../routes/patients.php");
+                header("location:lib/routes/patients.php");
             }
         }
         else{
