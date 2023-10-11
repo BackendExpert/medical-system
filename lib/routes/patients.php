@@ -253,7 +253,18 @@
       </h3>
       <hr>
         <div class="table-responsive">
-            
+            <table class="table">
+                <thead class="table-dark">
+                    <tr>
+                        <td>#</td>
+                        <td>NIC</td>
+                        <td>Name</td>
+                        <td>Address</td>
+                        <td>Mobile Number</td>
+                    </tr>
+                </thead>
+                
+            </table>
         </div>
 
 
