@@ -93,7 +93,7 @@
             $channling_data = "INSERT INTO channeling_date_tbl(nic,ch_date,booked_date)VALUES('$nic','$next_ch_date',NOW())";
             $channling_data_result = mysqli_query($con, $channling_data);
 
-            $insert_medicine = "INSERT INTO medicine_tbl(nic,medicine,add_date)VALUES('$nic',$medi',NOW())";
+            $insert_medicine = "INSERT INTO medicine_tbl(nic,medicine,add_date)VALUES('$nic','$medi',NOW())";
             $insert_medicine_result = mysqli_query($con, $insert_medicine);
 
             echo "
