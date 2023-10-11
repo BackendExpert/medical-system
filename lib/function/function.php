@@ -108,7 +108,10 @@
     function all_patients(){
         $con = Connection();
 
+        $all_patients = "SELECT * FROM patients_tbl";
+        $all_patients_result = mysqli_query($con, $all_patients);
         
+
     }
 
 ?>
