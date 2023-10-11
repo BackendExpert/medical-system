@@ -264,7 +264,7 @@
                         <th>#</th>
                         <th>NIC</th>
                         <th>Name</th>
-                        <th>Fist Date</th>
+                        <th>First Date</th>
                         <th>Channeling Date</th>
                         <th>New Channeling Date</th>
                         <th>Action</th>
