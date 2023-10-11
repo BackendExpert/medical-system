@@ -134,7 +134,7 @@
                             $patients .="<i class='fas fa-male'></i> Male";
                         }
                         elseif($all_patients_row['gender'] == "female"){
-                            $patients .="<i class='fas fa-male'></i> Female";
+                            $patients .="<i class='fas fa-female'></i> Female";
                         }
                     
                     
