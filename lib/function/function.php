@@ -126,9 +126,11 @@
                 while($row = mysqli_fetch_assoc($all_patients_result)){
                     $patient = "
                         <tr>
-                            <td></td>
+                            <td>".$row['nic']."</td>
                         </tr>
                     ";
+
+                    echo $patient;
                 }
     
 
