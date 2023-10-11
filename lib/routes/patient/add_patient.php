@@ -308,11 +308,11 @@
             </div>
             <div class="row">
                 <div class="col-lg-5">
-                    
+                    <input type="submit" value="Add Patient" class="btn btn-success" name="add_patient">
                 </div>
                 <div class="col-lg-1">&nbsp;&nbsp;</div>
                 <div class="col-lg-6">
-                    
+                    <input type="reset" value="Reset" class="btn btn-success" name="add_patient">
                 </div>
             </div>
         </form>
