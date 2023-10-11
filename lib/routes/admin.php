@@ -271,19 +271,19 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="card text-bg-primary mb-3" style="max-width: 100%;">
-                <div class="card-header">Header</div>
+                <div class="card-header">Users</div>
                 <div class="card-body">
-                    <h5 class="card-title">Primary card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">All Users</h5>
+                    <p class="card-text">400</p>
                 </div>
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="card text-bg-success mb-3" style="max-width: 100%;">
-                    <div class="card-header">Header</div>
+                    <div class="card-header">Patients</div>
                     <div class="card-body">
-                        <h5 class="card-title">Primary card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">All Patients</h5>
+                        <p class="card-text">400</p>
                     </div>
                 </div>
             </div>
@@ -291,7 +291,7 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="card text-bg-warning mb-3" style="max-width: 100%;">
-                <div class="card-header">Header</div>
+                <div class="card-header">Today's Patients</div>
                 <div class="card-body">
                     <h5 class="card-title">Primary card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -300,7 +300,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="card text-bg-danger mb-3" style="max-width: 100%;">
-                    <div class="card-header">Header</div>
+                    <div class="card-header">Today's Absent Patients</div>
                     <div class="card-body">
                         <h5 class="card-title">Primary card title</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
