@@ -3,7 +3,7 @@
 
 <?php 
 
-    if(empty($_SESSION['LoginSession'])){
+    if(empty($_SESSION['loginSession'])){
         header("location:../../index.php");
     }
 
@@ -242,6 +242,9 @@
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <h1 class="h2">Dashboard</h1>
       </div>
+
+      <h3>Date : </h3>
+      <hr>
 
         <div class="row">
             <div class="col-lg-6">
