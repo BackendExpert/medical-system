@@ -89,7 +89,12 @@
         if($check_patients_nor <= 0){
             $insert_patient = "INSERT INTO patients_tbl(nic,fname,lname,gender,mobile_no,address,join_at,update_at)VALUES('$nic','$pfname','$plname','$pgender','$pmobile','$paddress',NOW(), NOW())";
             $insert_patient_result = mysqli_query($con, $insert_patient);
-            header("location:../../index.php");
+
+            echo "
+            <script>
+                window.location = '../patients.php';
+            </script>
+            ";
 
         }
         else{
@@ -98,6 +103,8 @@
                             <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
                 </div>";
         }
+
+
     }
 
 ?>
