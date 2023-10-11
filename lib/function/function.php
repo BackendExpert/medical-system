@@ -118,23 +118,31 @@
         if($is_table_empty_result){
             $empty_row = mysqli_fetch_assoc($is_table_empty_result);
             $id_count = $empty_row['id'];
+
+            if($id_count == 0){
+                echo "Table is Empty";
+            }
+            else{
+                echo "Table not Empty........!";
+            }
         }
+        
 
-        $patients = "
-            <tr>
-                <td>".$all_patients_row['nic']."</td>
-                <td>".$all_patients_row['fname']."</td>
-                <td>".$all_patients_row['join_at']."</td>
-                <td></td>
-                <td></td>
-                <td>
+        // $patients = "
+        //     <tr>
+        //         <td>".$all_patients_row['nic']."</td>
+        //         <td>".$all_patients_row['fname']."</td>
+        //         <td>".$all_patients_row['join_at']."</td>
+        //         <td></td>
+        //         <td></td>
+        //         <td>
                 
-                </td>
+        //         </td>
             
-            </tr>
-        ";
+        //     </tr>
+        // ";
 
-        echo $patients;
+        // echo $patients;
 
 
     }
