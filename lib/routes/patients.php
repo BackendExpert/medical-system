@@ -264,7 +264,8 @@
                         <th>NIC</th>
                         <th>Name</th>
                         <th>Fist Date</th>
-                        <th></th>
+                        <th>Channeling Date</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -272,8 +273,11 @@
                         <td>1</td>
                         <td>200105101033</td>
                         <td>Kamal</td>
-                        <td>Kandy</td>
-                        <td>0711758851</td>
+                        <td>11.10.2023</td>
+                        <td>11.10.2023</td>
+                        <td>
+                            <a href=""><button class="btn btn-info"><i class="fas fa-eye"></i> View</button></a>
+                        </td>
                     </tr>
                 </tbody>
             </table>
