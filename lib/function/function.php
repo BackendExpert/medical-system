@@ -178,6 +178,10 @@
     function patient_nic(){
         $con = Connection();
 
-        echo $id = $_GET['id'];
+        $id = $_GET['id'];
+
+        $p_nic = "SELECT * FROM patients_tbl WHERE id = '$id'";
+        $p_id_result = mysqli_query($con, $p_id);
+        
     }
 ?>
