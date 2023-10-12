@@ -263,6 +263,14 @@
         $medi_info_result = mysqli_query($con, $medi_info);
         $medi_info_view = mysqli_fetch_assoc($medi_info_result);
 
+        $patient .= "
+            <div class='row'>
+                <div class='col-lg-12'>
+                    Given
+                </div>
+            </div>
+        ";
+
         echo $patient;
 
     }
