@@ -227,8 +227,9 @@
             <br>
             <div class='row'>
                 <div class='col-lg-5'>
-                    Patient Gender : 
-                    <input type='text' class='form-control' value='".$patient_data_view['nic']."' disabled>
+                    Patient Gender : ";
+            
+            $patient .="        
                 </div>
                 <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
                 <div class='col-lg-6'>
