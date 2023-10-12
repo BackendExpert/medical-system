@@ -185,13 +185,13 @@
         $con = Connection();
 
         $id = $_GET['id'];
-        $_SESSION['patient_id'] = $id;
 
         $p_nic = "SELECT * FROM patients_tbl WHERE id = '$id'";
         $p_id_result = mysqli_query($con, $p_nic);
         $p_nic_row = mysqli_fetch_assoc($p_id_result);
 
-        echo $p_nic_row['nic'];                
+        echo $p_nic_row['nic'];      
+        $_SESSION['patient_nic'] = $p_nic_row['nic'];    
     }
 
 
@@ -203,9 +203,9 @@
         $con = Connection();
 
         $patient_id = strval($_SESSION['patient_id']);
-        // echo $patient_id;
+        echo $patient_id;
 
-        
+
     }
 
 ?>
