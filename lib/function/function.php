@@ -211,6 +211,16 @@
 
         $patient = "
             <h2>Patient Data : ".$patient_data_view['nic']."</h2>
+            <hr>
+
+            <div class='row'>
+                <div class='col-lg-5'>
+                    Patient NIC : 
+                </div>
+                <div class='col-lg-1'>
+
+            </div>
+
         
         ";
 
