@@ -209,6 +209,10 @@
         $patient_data_result = mysqli_query($con, $patient_data);
         $patient_data_view = mysqli_fetch_assoc($patient_data_result);
 
+        $patient = "";
+
+        echo $patient;
+
     }
 
 ?>
