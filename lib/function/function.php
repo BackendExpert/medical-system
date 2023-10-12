@@ -276,7 +276,10 @@
                     <input type='text' class='form-control' value='".$medi_info_view['add_date']."' disabled> 
                 </div>
             </div>
+            <hr>
         ";
+
+
 
         echo $patient;
 
