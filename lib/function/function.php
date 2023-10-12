@@ -199,4 +199,8 @@
     // if not in given channeling date -> at 23:59 autometiclly absent and docter have to give new channling date
     //--> and make db and store new channaling date
 
+    function show_patient(){
+        $con = Connection();
+    }
+
 ?>
