@@ -281,6 +281,7 @@
 
         $next_ch_date = "SELECT * FROM channeling_date_tbl WHERE nic = '$patient_id'";
         $next_ch_date_result = mysqli_query($con, $next_ch_date);
+        $view_next_ch_date = mysqli_fetch_assoc($next_ch_date_result);
 
 
         echo $patient;
