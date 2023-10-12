@@ -266,7 +266,8 @@
         $patient .= "
             <div class='row'>
                 <div class='col-lg-12'>
-                    Given
+                    Given Medicine : 
+                    <textarea class='form-control pAddress'></textarea>
                 </div>
             </div>
         ";
