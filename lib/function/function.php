@@ -229,10 +229,10 @@
                 <div class='col-lg-5'>
                     Patient Gender : ";
 
-                    if($patient_data_view['fname'] == "male"){
+                    if($patient_data_view['gender'] == "male"){
                         $patient .= "<h3><i class='fas fa-male'></i> Male</h3>";
                     }
-                    elseif($patient_data_view['fname'] == "female"){
+                    elseif($patient_data_view['gender'] == "female"){
                         $patient .= "<h3><i class='fas fa-female'></i> Female</h3>";
                     }
             
