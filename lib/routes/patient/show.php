@@ -260,7 +260,7 @@
       <a href="../patients.php"><button class="btn btn-primary">Back</button></a>
       <hr>
 
-
+      <?php show_patient(); ?>
 
 
 
