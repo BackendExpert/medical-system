@@ -203,7 +203,9 @@
         $con = Connection();
 
         $patient_id = strval($_SESSION['patient_id']);
-        echo $patient_id;
+        // echo $patient_id;
+
+        
     }
 
 ?>
