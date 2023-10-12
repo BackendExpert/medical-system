@@ -207,6 +207,7 @@
 
         $patient_data = "SELECT * FROM patients_tbl WHERE nic = '$patient_id'";
         $patient_data_result = mysqli_query($con, $patient_data);
+        $patient_data_view = mysqli_fetch_assoc($patient_data_result);
 
     }
 
