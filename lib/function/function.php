@@ -217,7 +217,10 @@
                 <div class='col-lg-5'>
                     Patient NIC : 
                 </div>
-                <div class='col-lg-1'>
+                <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
+                <div class='col-lg-6'>
+                    Patient First Name :
+                </div>
 
             </div>
 
