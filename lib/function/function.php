@@ -230,10 +230,10 @@
                     Patient Gender : ";
 
                     if($patient_data_view['fname'] == "male"){
-
+                        echo "<h3><i class='fas fa-male'></i> Male</h3>";
                     }
                     elseif($patient_data_view['fname'] == "female"){
-                        
+                        echo "<h3><i class='fas fa-female'></i> Female</h3>";
                     }
             
             $patient .="        
