@@ -210,7 +210,7 @@
         $patient_data_view = mysqli_fetch_assoc($patient_data_result);
 
         $patient = "
-            
+            <h2>Patient Data : </h2>
         
         ";
 
