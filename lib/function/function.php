@@ -285,10 +285,12 @@
 
         $patient .= "
             <div class='row'>
-                <div class='col-lg-12>
-                    <input type='text' class='form-control' value='".$view_next_ch_date['']."' disabled>
+                <div class='col-lg-12'>
+                    Given Medicine : 
+                    <textarea class='form-control pAddress' disabled>".$medi_info_view['medicine']."</textarea>
                 </div>
             </div>
+            <br><br>
         ";
 
         echo $patient;
