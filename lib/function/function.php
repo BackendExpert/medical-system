@@ -267,7 +267,7 @@
             <div class='row'>
                 <div class='col-lg-12'>
                     Given Medicine : 
-                    <textarea class='form-control pAddress'>ssssssssssssssssss</textarea>
+                    <textarea class='form-control pAddress' disabled>".$medi_info_view['medicine']."</textarea>
                 </div>
             </div>
         ";
