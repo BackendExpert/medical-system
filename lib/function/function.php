@@ -268,6 +268,10 @@
                     Given Medicine : 
                     <textarea class='form-control pAddress' disabled>".$medi_info_view['medicine']."</textarea>
                 </div>
+                <div class='col-lg-12'>
+                    Given Date : 
+                    <input type='text' class='form-control' value='".$medi_info_view['add_date']."' disabled> 
+                </div>
             </div>
         ";
 
