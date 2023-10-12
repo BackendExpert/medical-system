@@ -228,6 +228,13 @@
             <div class='row'>
                 <div class='col-lg-5'>
                     Patient Gender : ";
+
+                    if($patient_data_view['fname'] == "male"){
+
+                    }
+                    elseif($patient_data_view['fname'] == "female"){
+                        
+                    }
             
             $patient .="        
                 </div>
