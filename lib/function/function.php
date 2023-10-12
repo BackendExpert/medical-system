@@ -252,14 +252,16 @@
                 </div>
                 <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
                 <div class='col-lg-6'>
-                    Patient First Name :
-                    <input type='text' class='form-control' value='".$patient_data_view['fname']."' disabled>
+                    Patient First Date :
+                    <input type='text' class='form-control' value='".$patient_data_view['join_at']."' disabled>
                 </div>
             </div>
-
-
-        
+            <hr>        
         ";
+
+        $medi_info = "SELECT * FROM medicine_tbl WHERE nic = '$patient_id'";
+        $medi_info_result = mysqli_query($con, $medi_info);
+        $medi_info_view = mysqli_fetch_assoc($medi_info_result);
 
         echo $patient;
 
