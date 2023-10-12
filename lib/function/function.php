@@ -283,6 +283,13 @@
         $next_ch_date_result = mysqli_query($con, $next_ch_date);
         $view_next_ch_date = mysqli_fetch_assoc($next_ch_date_result);
 
+        $patient .= "
+            <div class='row'>
+                <div class='col-lg-12>
+                    
+                </div>
+            </div>
+        ";
 
         echo $patient;
 
