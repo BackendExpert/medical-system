@@ -216,11 +216,12 @@
             <div class='row'>
                 <div class='col-lg-5'>
                     Patient NIC : 
-                    <input type='text' class='form-control' value='".$patient_data_view['nic']."' >
+                    <input type='text' class='form-control' value='".$patient_data_view['nic']."' disabled>
                 </div>
                 <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
                 <div class='col-lg-6'>
                     Patient First Name :
+                    <input type='text' class='form-control' value='".$patient_data_view['fname']."' disabled>
                 </div>
 
             </div>
