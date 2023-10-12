@@ -279,6 +279,7 @@
             <hr>
         ";
 
+        $next_ch_date = "SELECT * FROM channeling_date_tbl WHERE nic = '$patient_id'";
 
 
         echo $patient;
