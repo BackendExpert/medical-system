@@ -267,7 +267,7 @@
             <div class='row'>
                 <div class='col-lg-12'>
                     Given Medicine : 
-                    <textarea class='form-control pAddress'></textarea>
+                    <textarea class='form-control pAddress'>ssssssssssssssssss</textarea>
                 </div>
             </div>
         ";
