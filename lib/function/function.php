@@ -202,9 +202,11 @@
     function show_patient(){
         $con = Connection();
 
-        $patient_id = strval($_SESSION['patient_id']);
-        echo $patient_id;
+        $patient_id = strval($_SESSION['patient_nic']);
+        // echo $patient_id;
 
+        $patient_data = "SELECT * FROM patients_tbl WHERE nic = '$patient_id'";
+        $patient_data_result = mysqli_query($con, $patient_data);
 
     }
 
