@@ -388,4 +388,8 @@
 
     }
 
+    function update_patient($patient_nic, $patient_mobile){
+        $con = Connection();
+    }
+
 ?>
