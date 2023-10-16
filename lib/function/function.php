@@ -325,6 +325,10 @@
                         <input type='hidden' name='id_patient' value='".$patient_data['nic']."'>
                     </div>
                     <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
+                    <div class='col-lg-5'>
+                        Patient Name : 
+                        <input type='text' class='form-control' value='".$patient_data['fname']."' disabled>
+                    </div>
                 </div>
             </form>
         
