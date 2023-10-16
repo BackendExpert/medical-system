@@ -254,6 +254,12 @@
       
       <hr>
 
+      <?php 
+        if(isset($_POST['sign_up'])){
+            
+        }
+      ?>
+
       <?php edit_patient_data(); ?>
 
 
