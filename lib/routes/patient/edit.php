@@ -250,10 +250,7 @@
 
       <h4>Date : 
 
-      <?php 
-        $currentDate = date('l, F j, Y');
-        echo $currentDate;
-      ?>
+
 
       </h4>
       <br>
