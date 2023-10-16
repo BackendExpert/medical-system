@@ -349,6 +349,14 @@
                         <input type='text' class='form-control' value='".$patient_data['lname']."' disabled>
                     </div>
                 </div>
+                <div class='row'>
+                    <div class='col-lg-6'>
+                        Patient Mobile Number : 
+                        <input type='text' name='new_phone' value='".$patient_data['mobile']."'
+                    </div>
+                    <div class-'col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
+                    <div class='col-lg-5'></div>
+                </div>
             </form>
         
         ";
