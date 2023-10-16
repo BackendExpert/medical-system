@@ -333,6 +333,13 @@
                 <div class='row'>
                     <div class='col-lg-6'>";
 
+                        if($patient_data['gender'] == 'male'){
+                            $patient_edit .= "<h3><i class='fas fa-male'></i> Male </h3>";
+                        }
+                        elseif($patient_data['gender'] == 'female'){
+                            $patient_edit .="";
+                        }
+
      $patient_edit .= "</div>
                 </div>
             </form>
