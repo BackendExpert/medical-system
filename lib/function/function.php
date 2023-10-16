@@ -311,6 +311,10 @@
 
         $get_patient = "SELECT * FROM patients_tbl WHERE nic = '$nic_patient'";
         $get_patient_result = mysqli_query($con, $get_patient);
+
+        $patient_data = mysqli_fetch_assoc($get_patient_result);
+
+        echo $patient_data['nic'];
     }
 
 ?>
