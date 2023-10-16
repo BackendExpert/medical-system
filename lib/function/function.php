@@ -355,7 +355,10 @@
                         <input type='text' name='new_phone' value='".$patient_data['mobile_no']."'>
                     </div>
                     <div class-'col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
-                    <div class='col-lg-5'></div>
+                    <div class='col-lg-5'>
+                        Patient First Date :
+                        <input type='text' value='".$patient_data['mobile_no']."' disabled>
+                    </div>
                 </div>
             </form>
         
