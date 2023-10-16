@@ -309,7 +309,8 @@
 
         $nic_patient = strval($_SESSION['patient_nic']);
 
-        echo $nic_patient;
+        $get_patient = "SELECT * FROM patients_tbl WHERE nic = '$nic_patient'";
+        $get_patient_result = mysqli_query($con, $get_patient);
     }
 
 ?>
