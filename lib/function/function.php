@@ -295,8 +295,8 @@
         $patient .= "
             <div class='row'>
                 <div class='col-lg-12'>
-                     : 
-                    <textarea class='form-control pAddress' disabled>".$medi_info_view['medicine']."</textarea>
+                    Next Channaling Date : 
+                    <input type='text' value=''
                 </div>
             </div>
             <br><br>
