@@ -352,12 +352,12 @@
                 <div class='row'>
                     <div class='col-lg-6'>
                         Patient Mobile Number : 
-                        <input type='text' name='new_phone' value='".$patient_data['mobile_no']."'>
+                        <input type='text' name='new_phone' value='".$patient_data['mobile_no']."'  class='form-control'>
                     </div>
                     <div class-'col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
                     <div class='col-lg-5'>
                         Patient First Date :
-                        <input type='text' value='".$patient_data['mobile_no']."' disabled>
+                        <input type='text' value='".$patient_data['mobile_no']."'  class='form-control' disabled>
                     </div>
                 </div>
             </form>
