@@ -316,7 +316,10 @@
 
         $patient_data = mysqli_fetch_assoc($get_patient_result);
 
-        $patient_edit = "";
+        $patient_edit = "
+            <form action='' method='POST'></form>
+        
+        ";
 
         echo $patient_edit;
 
