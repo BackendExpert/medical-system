@@ -374,6 +374,7 @@
                         <input type='text' class='form-control' value='".$patient_data['join_at']."' disabled>
                     </div>
                 </div>
+                <br>
                 <div class='row'>
                     <div class='col-lg-12'>
                         <input type='submit' name='update_patient' value='Update Patient' class='btn btn-primary'>
