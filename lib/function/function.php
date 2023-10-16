@@ -307,7 +307,7 @@
     function edit_patient_data(){
         $con = Connection();
 
-        
+        $nic_patient = strval($_SESSION['patient_nic']);
     }
 
 ?>
