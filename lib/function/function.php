@@ -308,6 +308,8 @@
         $con = Connection();
 
         $nic_patient = strval($_SESSION['patient_nic']);
+
+        echo $nic_patient;
     }
 
 ?>
