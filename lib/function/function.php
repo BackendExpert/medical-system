@@ -203,6 +203,10 @@
 
     }
 
+    function edit_patient_back(){
+        $con = Connection();
+    }
+
     //when check out btn click -> date autometically update and present pataient, checkout page, adding medi, body lang, and next chanaaling date
     // if not in given channeling date -> at 23:59 autometiclly absent and docter have to give new channling date
     //--> and make db and store new channaling date
