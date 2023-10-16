@@ -195,6 +195,9 @@
 
     function patient_id(){
         $con = Connection();
+
+        $patient_nic = $_GET['id'];
+        echo $patient_nic;
     }
 
     //when check out btn click -> date autometically update and present pataient, checkout page, adding medi, body lang, and next chanaaling date
