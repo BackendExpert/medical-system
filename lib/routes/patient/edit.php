@@ -253,7 +253,7 @@
       
       <hr>
 
-      <?php //show_patient(); ?>
+      <?php edit_patient_data(); ?>
 
 
 
