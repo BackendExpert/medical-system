@@ -317,7 +317,11 @@
         $patient_data = mysqli_fetch_assoc($get_patient_result);
 
         $patient_edit = "
-            <form action='' method='POST'></form>
+            <form action='".$_SERVER['PHP_SELF']."' method='POST'>
+                <div class='row'>
+                    <div class='col-lg-6'></div>
+                </div>
+            </form>
         
         ";
 
