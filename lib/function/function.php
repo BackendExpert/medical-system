@@ -296,7 +296,7 @@
             <div class='row'>
                 <div class='col-lg-12'>
                     Next Channaling Date : 
-                    <input type='text' value='".$medi_info_view['ch_date']."'
+                    <input type='text' value='".$medi_info_view['ch_date']."' disabled>
                 </div>
             </div>
             <br><br>
