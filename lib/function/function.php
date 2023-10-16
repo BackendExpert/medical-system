@@ -330,6 +330,7 @@
                         <input type='text' class='form-control' value='".$patient_data['fname']."' disabled>
                     </div>
                 </div>
+                <br>
                 <div class='row'>
                     <div class='col-lg-6'>";
 
@@ -341,6 +342,7 @@
                         }
 
      $patient_edit .= "</div>
+                    <div class='col-lg-1>&nbsp;&nbsp;&nbsp;&nbsp;</div>'
                 </div>
             </form>
         
