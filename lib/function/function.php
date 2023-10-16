@@ -337,7 +337,7 @@
                             $patient_edit .= "<h3><i class='fas fa-male'></i> Male </h3>";
                         }
                         elseif($patient_data['gender'] == 'female'){
-                            $patient_edit .="";
+                            $patient_edit .="<h3><i class='fas fa-female'></i> Female </h3>";
                         }
 
      $patient_edit .= "</div>
