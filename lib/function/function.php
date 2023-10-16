@@ -319,7 +319,11 @@
         $patient_edit = "
             <form action='".$_SERVER['PHP_SELF']."' method='POST'>
                 <div class='row'>
-                    <div class='col-lg-6'></div>
+                    <div class='col-lg-6'>
+                        Patient NIC : 
+                        <input type='text' class='form-control' value='".$patient_data['nic']."' disabled> 
+                    </div>
+                    <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
                 </div>
             </form>
         
