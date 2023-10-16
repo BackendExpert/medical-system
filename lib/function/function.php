@@ -208,8 +208,8 @@
     function edit_patient_back(){
         $con = Connection();
 
-        $patient_id = strval($_SESSION['edit_patient']);
-
+        $patient_id = strval($_SESSION['patient_id_back']);
+        echo $patient_id;
 
     }
 
