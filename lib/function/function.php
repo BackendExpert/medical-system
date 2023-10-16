@@ -208,7 +208,9 @@
     function edit_patient_back(){
         $con = Connection();
         
-        
+        $p_nic = strval($_SESSION['patient_nic']);
+        echo $p_nic;
+        // $select_id = "SELECT * FROM patients_tbl WHERE nic=''";
         
 
     }
