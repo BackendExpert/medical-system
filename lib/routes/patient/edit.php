@@ -248,11 +248,6 @@
         <h1 class="h2"><?php patient_nic(); ?></h1>
       </div>
 
-      <h4>Date : 
-
-
-
-      </h4>
       <br>
       <a href="../patients.php"><button class="btn btn-primary">Back</button></a>
       
