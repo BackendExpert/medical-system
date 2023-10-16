@@ -326,7 +326,7 @@
                     </div>
                     <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
                     <div class='col-lg-5'>
-                        Patient Name : 
+                        Patient First Name : 
                         <input type='text' class='form-control' value='".$patient_data['fname']."' disabled>
                     </div>
                 </div>
@@ -345,7 +345,7 @@
                     <div class='col-lg-1>&nbsp;&nbsp;&nbsp;&nbsp;</div>'
 
                     <div class='col-lg-5'>
-                        
+                        Patient Last Name
                     </div>
                 </div>
             </form>
