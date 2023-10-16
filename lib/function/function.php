@@ -199,6 +199,8 @@
         $patient_nic = $_GET['id'];
         echo $patient_nic;
 
+        $_SESSION['edit_patient'] = $patient_nic;
+
     }
 
     //when check out btn click -> date autometically update and present pataient, checkout page, adding medi, body lang, and next chanaaling date
@@ -307,7 +309,7 @@
     function edit_patient_data(){
         $con = Connection();
 
-        $nic_patient = strval($_SESSION['patient_nic']);
+        $nic_patient = strval($_SESSION['edit_patient']);
 
         $get_patient = "SELECT * FROM patients_tbl WHERE nic = '$nic_patient'";
         $get_patient_result = mysqli_query($con, $get_patient);
