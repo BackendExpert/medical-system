@@ -193,6 +193,9 @@
         $_SESSION['patient_nic'] = $p_nic_row['nic'];    
     }
 
+    function patient_id(){
+        $con = Connection();
+    }
 
     //when check out btn click -> date autometically update and present pataient, checkout page, adding medi, body lang, and next chanaaling date
     // if not in given channeling date -> at 23:59 autometiclly absent and docter have to give new channling date

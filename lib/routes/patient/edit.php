@@ -258,10 +258,10 @@
       </h4>
       <br>
       <a href="../patients.php"><button class="btn btn-primary">Back</button></a>
-      <a href="edit.php?id=<?php patient_nic(); ?>"><button class="btn btn-warning"><i class="fas fa-pen"></i> Edit Data</button></a>
+      
       <hr>
 
-      <?php show_patient(); ?>
+      <?php //show_patient(); ?>
 
 
 
