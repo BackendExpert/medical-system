@@ -249,7 +249,7 @@
       </div>
 
       <br>
-      <a href="show.php?id=<?php patient_id(); ?>"><button class="btn btn-primary">Back</button></a>
+      <a href="show.php?id=<?php edit_patient_back(); ?>"><button class="btn btn-primary">Back</button></a>
       
       <hr>
 
