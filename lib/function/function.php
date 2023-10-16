@@ -209,15 +209,16 @@
         $con = Connection();
         
         $p_nic = strval($_SESSION['patient_nic']);
-        echo $p_nic;
-        // $select_id = "SELECT * FROM patients_tbl WHERE nic=''";
-        
+
+        $select_id = "SELECT * FROM patients_tbl WHERE nic='$p_nic'";
+        $select_id_result = mysqli_query($con, $select_id);
+        $select_id_row = mysqli_fetch_assoc($select_id_result);
+
+        echo $select_id_row['id'];        
 
     }
 
-    //when check out btn click -> date autometically update and present pataient, checkout page, adding medi, body lang, and next chanaaling date
-    // if not in given channeling date -> at 23:59 autometiclly absent and docter have to give new channling date
-    //--> and make db and store new channaling date
+
 
     function show_patient(){
         $con = Connection();
