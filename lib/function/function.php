@@ -316,7 +316,10 @@
 
         $patient_data = mysqli_fetch_assoc($get_patient_result);
 
-        echo $patient_data['nic'];
+        $patient_edit = "";
+
+        echo $patient_edit;
+
     }
 
 ?>
