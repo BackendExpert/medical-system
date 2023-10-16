@@ -342,7 +342,7 @@
                         }
 
      $patient_edit .= "</div>
-                    <div class='col-lg-1>&nbsp;&nbsp;&nbsp;&nbsp;</div>'
+                    <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;&nbsp;</div>
 
                     <div class='col-lg-5'>
                         Patient Last Name : 
