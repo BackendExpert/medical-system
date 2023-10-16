@@ -374,6 +374,11 @@
                         <input type='text' class='form-control' value='".$patient_data['join_at']."' disabled>
                     </div>
                 </div>
+                <div class='row'>
+                    <div class='col-lg-12'>
+                    
+                    </div>
+                </div>
             </form>
         
         ";
