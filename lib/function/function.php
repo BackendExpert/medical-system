@@ -376,7 +376,7 @@
                 </div>
                 <div class='row'>
                     <div class='col-lg-12'>
-                    
+                        <input type='submit' name='update_patient' value='Update Patient' class='btn btn-primary'>
                     </div>
                 </div>
             </form>
