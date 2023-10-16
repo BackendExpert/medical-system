@@ -330,7 +330,7 @@
         $patient_data = mysqli_fetch_assoc($get_patient_result);
 
         $patient_edit = "
-            <form action='".$_SERVER['PHP_SELF']."' method='POST'>
+            <form action='' method='POST'>
                 <div class='row'>
                     <div class='col-lg-6'>
                         Patient NIC : 
