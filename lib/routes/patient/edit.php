@@ -256,7 +256,7 @@
 
       <?php 
         if(isset($_POST['sign_up'])){
-            
+            $result = update_patient($_POST[''])
         }
       ?>
 
