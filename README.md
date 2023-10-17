@@ -21,7 +21,7 @@ This Online Medical System is developed for management patients when in the chan
 
 ### 1. Version 1.0.0 (17 October 2023)
 - Release Date : 17 October 2023
-- Develped the System
+- Developed the System
 - First Version of System
 - Basic functions of the System
 
