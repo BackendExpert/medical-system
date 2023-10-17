@@ -393,7 +393,7 @@
 
         $update_patient_mobile = "UPDATE patients_tbl SET mobile_no = '$patient_mobile' WHERE nic='$patient_nic'";
         $update_patient_mobile_result = mysqli_query($con, $update_patient_mobile);
-        header();
+        header("location:../patients.php");
     }
 
 ?>
