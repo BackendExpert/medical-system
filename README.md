@@ -2,6 +2,8 @@
 
 ## About the System
 
+This Online Medical System is developed for management patients when in the channeling center
+
 # Developers
 
 - JehanKandy
