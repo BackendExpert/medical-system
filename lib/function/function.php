@@ -391,7 +391,7 @@
     function update_patient($patient_nic, $patient_mobile){
         $con = Connection();
 
-        
+        $update_patient_mobile = "UPDATE patients_tbl SET mobile_no = '$patient_mobile' WHERE nic=''";
     }
 
 ?>
