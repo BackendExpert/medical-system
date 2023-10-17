@@ -8,6 +8,12 @@ Online System link: [Online Medical System](http://medicalsystem.42web.io/)
 
 This Online Medical System is developed for management patients when in the channeling center. As an Example when docter can management his or her patients.
 
+## Login details
+
+- Admin
+- - Username : jehan
+- - Password : admin123
+
 ## Releases
 
 ### 1. Version 1.0.0 (17 October 2023)
