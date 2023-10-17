@@ -255,7 +255,7 @@
       <hr>
 
       <?php 
-        if(isset($_POST['sign_up'])){
+        if(isset($_POST['update_patient'])){
             $result = update_patient($_POST['id_patient'], $_POST['new_mobile']);
             echo $result;
         }
