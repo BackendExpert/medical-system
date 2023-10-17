@@ -2,7 +2,7 @@
 
 ## About the System
 
-This Online Medical System is developed for management patients when in the channeling center
+This Online Medical System is developed for management patients when in the channeling center. As an Example when docter can management his or her patients.
 
 # Developers
 
