@@ -14,6 +14,9 @@ This Online Medical System is developed for management patients when in the chan
 - - Username : jehan
 - - Password : admin123
 
+- Users
+- - user interface is under development
+
 ## Releases
 
 ### 1. Version 1.0.0 (17 October 2023)
