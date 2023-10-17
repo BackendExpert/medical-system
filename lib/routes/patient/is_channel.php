@@ -265,75 +265,7 @@
         ?>
 
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
-            <div class="row">
-                <div class="col-lg-12">
-                    <label for="nic"><strong>Patient NIC</strong></label>
-                    <input type="text" name="p_nic" id="" class="form-control" placeholder="Patient NIC" required>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-5">
-                    <label for="name"><strong>Patient's First Name : </strong></label>
-                    <input type="text" name="p_fname" id="" class="form-control" placeholder="Patient's First Name" required>
-                </div>
-                <div class="col-lg-1">&nbsp;&nbsp;</div>
-                <div class="col-lg-6">
-                    <label for="lname"><strong>Patient's Last Name : </strong></label>
-                    <input type="text" name="p_lname" id="" class="form-control" placeholder="Patient's Last Name" required>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-5">
-                    <label for="Gender"><strong>Gender : </strong></label><br>
-                    <input class="form-check-input" type="radio" name="gender" id="gender" value="male" required>
-                    <label class="form-check-label" for="male">
-                        Male
-                    </label>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input class="form-check-input" type="radio" name="gender" id="gender" value="female" required>
-                    <label class="form-check-label" for="female">
-                        Female
-                    </label>
-                </div>
-                <div class="col-lg-1">&nbsp;&nbsp;</div>
-                <div class="col-lg-6">
-                    <label for="name"><strong>Mobile Number : </strong></label>
-                    <input type="text" name="p_mobile" id="" class="form-control" placeholder="Patient's Mobile Number" required>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-12">
-                    <label for="Address"><strong>Address: </strong></label>
-                    <textarea name="p_address" id="" class="form-control pAddress" placeholder="Patient Addresss" required></textarea>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-12">
-                    <label for="medi"><strong>Given Medicine</strong></label>
-                    <textarea name="p_given_medi" id="" class="form-control pAddress" placeholder="Given Medicine" required></textarea>
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-12">
-                    <label for="ch_date"><strong>Next Channeling Date : </strong></label>
-                    <input type="date" name="next_ch_date" id="" class="form-control">
-                </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col-lg-5">
-                    <input type="submit" value="Add Patient" class="btn btn-success" name="add_patient" style="width: 100%; height:50px;">
-                </div>
-                <div class="col-lg-1">&nbsp;&nbsp;</div>
-                <div class="col-lg-6">
-                    <input type="reset" value="Reset" class="btn btn-secondary" style="width: 100%; height:50px;">
-                </div>
-            </div>
+           
         </form>
             <br>
 
