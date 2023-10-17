@@ -264,6 +264,7 @@
                         <th>NIC</th>
                         <th>Name</th>
                         <th>First Date</th>
+                        <th>Channel status</th>
                         <th>Gender</th>
                         <th>Action</th>
                     </tr>
