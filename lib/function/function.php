@@ -424,7 +424,9 @@
         $con = Connection();
 
         $patient_id = $_GET['id'];
-        echo $patient_id;
+
+        $get_patient_info = "SELECT * FROM patient_tbl WHERE id='$patient_id'";
+        $get_patient_info_result = mysqli_fetch_assoc($get_patient_info);
     }
 
 ?>
