@@ -466,6 +466,16 @@
                     <input type='text' class='form-control' value='".$current_date['ch_date']."' disabled>
                 </div>
             </div>
+            <br>
+            <div class='row'>
+                <div class='col-lg-2'>
+                    Channaling Date Status : 
+                </div>
+                <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
+                <div class='col-lg-9'>";
+                    
+            $patient_data .= " </div>
+            </div>
         ";
 
         echo $patient_data;
