@@ -263,6 +263,7 @@
         <h2>Patient Info.</h2>
         <?php 
 
+          delay_patient_info();
         ?>
 
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
