@@ -487,6 +487,10 @@
                     
     $patient_data .= " </div>
             </div>
+
+            <div class='row'>
+                <form action='' method='POST'></form>
+            </div>
         ";
 
         echo $patient_data;
