@@ -117,11 +117,10 @@
         $all_patients = "SELECT * FROM patients_tbl";
         $all_patients_result = mysqli_query($con, $all_patients);
 
-
         $is_table_empty = "SELECT COUNT(*) as id FROM patients_tbl";
         $is_table_empty_result = mysqli_query($con, $is_table_empty);
 
-        //55555555555555555555
+
 
         $check_date = date("Y-m-d");
 
@@ -139,6 +138,12 @@
                             <td>".$row['nic']."</td>
                             <td>".$row['fname']."</td>
                             <td>".$row['join_at']."</td>";
+
+                            $next_ch_date_p = "SELECT * FROM channeling_date_tbl";
+                            $next_ch_date_result = mysqli_query($con, $next_ch_date_p);
+                            $next_ch_date_r = mysqli_fetch_assoc($next_ch_date_result);
+
+                            if()
 
                             if($row['gender'] == "male"){
                                 $patient .="<td><i class='fas fa-male'></i> Male </td>";
