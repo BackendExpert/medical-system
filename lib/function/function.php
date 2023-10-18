@@ -470,16 +470,16 @@
             <br>
             <div class='row'>
                 <div class='col-lg-2'>
-                    Channaling Date Status : 
+                    Channeling Date Status : 
                 </div>
                 <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
                 <div class='col-lg-9'>";
 
                 if($current_date['ch_date'] == $check_date){
-                    $patient_data .= "<h4 class='badge bg-success'>Patient's Channal Date is Today</h4>";
+                    $patient_data .= "<h4 class='badge bg-success'>Patient's Channel Date is Today</h4>";
                 }
                 if($current_date['ch_date'] < $check_date){
-
+                    $patient_data .= "<h4 class='badge bg-danger'>Patient's Channel Date is Past</h4>";
                 }
                     
     $patient_data .= " </div>
