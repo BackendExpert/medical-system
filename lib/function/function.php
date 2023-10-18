@@ -149,6 +149,9 @@
                             elseif($next_ch_date_r['ch_date'] > $check_date){
                                 $patient .="<td><a href=''><button class='btn btn-danger'>Book another Date</button></a></td>";
                             }
+                            elseif($next_ch_date_r['ch_date'] < $check_date){
+                                $patient .="<td>Have More Days</td>";
+                            }
 
                             if($row['gender'] == "male"){
                                 $patient .="<td><i class='fas fa-male'></i> Male </td>";
