@@ -456,7 +456,16 @@
             $current_date = mysqli_fetch_assoc($get_current_ch_date_result);
 
         $patient_data .= "
-
+            <br>
+            <div class='row'>
+                <div class='col-lg-2'>
+                    Current Channeling Date : 
+                </div>
+                <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
+                <div class='col-lg-9'>
+                    <input type='text' class='form-control' value='".$current_date['ch_date']."' disabled>
+                </div>
+            </div>
         ";
 
         echo $patient_data;
