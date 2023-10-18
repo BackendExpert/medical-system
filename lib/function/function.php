@@ -429,16 +429,29 @@
         $get_patient_info_result = mysqli_query($con, $get_patient_info);
         $get_patient_row = mysqli_fetch_assoc($get_patient_info_result);
 
-        $patient_data = "
+        $patient_data = "<br>
             <div class='row'>
-                <div class='col-lg-5'>
+                <div class='col-lg-2'>
                     Patient Name : 
                 </div>
                 <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
-                <div class='col-lg-6'>
-                    <input type='text' class='form-control' value='".$get_patient_row['fname']." &nbsp; ".$get_patient_row['lname']."'>
+                <div class='col-lg-9'>
+                    <input type='text' class='form-control' value='".$get_patient_row['fname']." ".$get_patient_row['lname']."' disabled>
                 </div>
             </div>
+            <br>
+            <div class='row'>
+                <div class='col-lg-2'>
+                    Patient Mobile Number : 
+                </div>
+                <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
+                <div class='col-lg-9'>
+                    <input type='text' class='form-control' value='".$get_patient_row['mobile_no']."' disabled>
+                </div>
+            </div>";
+
+
+        $patient_data .= "
         
         ";
 
