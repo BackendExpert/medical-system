@@ -245,7 +245,7 @@
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">Add Patient</h1>
+        <h1 class="h2">Book another Date</h1>
       </div>
 
       <h4>Date : 
@@ -260,6 +260,7 @@
       <a href="../patients.php"><button class="btn btn-primary">Back</button></a>
       <hr>
 
+        <h2>Patient Info.</h2>
         <?php 
 
         ?>
