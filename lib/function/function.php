@@ -143,7 +143,7 @@
                             <td>".$row['fname']."</td>
                             <td>".$row['join_at']."</td>";
 
-                            $next_ch_date_p = "SELECT * FROM channeling_date_tbl WHERE nic='$id_count'";
+                            $next_ch_date_p = "SELECT * FROM channeling_date_tbl WHERE nic='$p_nic'";
                             $next_ch_date_result = mysqli_query($con, $next_ch_date_p);
                             $next_ch_date_r = mysqli_fetch_assoc($next_ch_date_result);
                             $patient .="<td>".$next_ch_date_r['ch_date']."</td>";
