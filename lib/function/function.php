@@ -429,7 +429,10 @@
         $get_patient_info_result = mysqli_query($con, $get_patient_info);
         $get_patient_row = mysqli_fetch_assoc($get_patient_info_result);
 
-        
+        $patient_data = "";
+
+        echo $patient_data;
+
     }
 
 ?>
