@@ -144,7 +144,7 @@
                             $next_ch_date_r = mysqli_fetch_assoc($next_ch_date_result);
 
                             if($next_ch_date_r['ch_date'] == $check_date){
-                                $patient .="<td><a href=''><button class='btn btn-success'> </button></a></td>";
+                                $patient .="<td><a href=''><button class='btn btn-success'>Channel Patiemt</button></a></td>";
                             }
 
                             if($row['gender'] == "male"){
