@@ -450,9 +450,11 @@
                 </div>
             </div>";
 
+            $patient_id = $get_patient_row['nic'];
+            $get_current_ch_date = "SELECT * FROM "
 
         $patient_data .= "
-        
+
         ";
 
         echo $patient_data;
