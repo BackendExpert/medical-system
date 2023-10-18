@@ -427,6 +427,9 @@
 
         $get_patient_info = "SELECT * FROM patient_tbl WHERE id='$patient_id'";
         $get_patient_info_result = mysqli_query($con, $get_patient_info);
+        $get_patient_row = mysqli_fetch_assoc($get_patient_info_result);
+
+        
     }
 
 ?>
