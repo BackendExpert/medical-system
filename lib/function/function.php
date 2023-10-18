@@ -116,9 +116,13 @@
 
         $all_patients = "SELECT * FROM patients_tbl";
         $all_patients_result = mysqli_query($con, $all_patients);
+        $all_patients_row = mysqli_fetch_assoc($all_patients_result);
+
+        $p_nic = $all_patients_row['nic'];
 
         $is_table_empty = "SELECT COUNT(*) as id FROM patients_tbl";
         $is_table_empty_result = mysqli_query($con, $is_table_empty);
+        
 
 
 
@@ -139,7 +143,7 @@
                             <td>".$row['fname']."</td>
                             <td>".$row['join_at']."</td>";
 
-                            $next_ch_date_p = "SELECT * FROM channeling_date_tbl";
+                            $next_ch_date_p = "SELECT * FROM channeling_date_tbl WHERE nic='$id_count'";
                             $next_ch_date_result = mysqli_query($con, $next_ch_date_p);
                             $next_ch_date_r = mysqli_fetch_assoc($next_ch_date_result);
                             $patient .="<td>".$next_ch_date_r['ch_date']."</td>";
