@@ -420,4 +420,8 @@
         ";
     }
 
+    function delay_patient_info(){
+        $con = Connection();
+    }
+
 ?>
