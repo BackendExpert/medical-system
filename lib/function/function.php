@@ -142,16 +142,17 @@
                             $next_ch_date_p = "SELECT * FROM channeling_date_tbl";
                             $next_ch_date_result = mysqli_query($con, $next_ch_date_p);
                             $next_ch_date_r = mysqli_fetch_assoc($next_ch_date_result);
+                            $patient .="<td>".$next_ch_date_r['ch_date']."</td>";
 
-                            if($next_ch_date_r['ch_date'] == $check_date){
-                                $patient .="<td><a href=''><button class='btn btn-success'>Channel Patiemt</button></a></td>";
-                            }
-                            elseif($next_ch_date_r['ch_date'] > $check_date){
-                                $patient .="<td><a href=''><button class='btn btn-danger'>Book another Date</button></a></td>";
-                            }
-                            elseif($next_ch_date_r['ch_date'] < $check_date){
-                                $patient .="<td>Have More Days</td>";
-                            }
+                            // if($next_ch_date_r['ch_date'] == $check_date){
+                            //     $patient .="<td><a href=''><button class='btn btn-success'>Channel Patiemt</button></a></td>";
+                            // }
+                            // elseif($next_ch_date_r['ch_date'] > $check_date){
+                            //     $patient .="<td><a href=''><button class='btn btn-danger'>Book another Date</button></a></td>";
+                            // }
+                            // elseif($next_ch_date_r['ch_date'] < $check_date){
+                            //     $patient .="<td>Have More Days</td>";
+                            // }
 
                             if($row['gender'] == "male"){
                                 $patient .="<td><i class='fas fa-male'></i> Male </td>";
