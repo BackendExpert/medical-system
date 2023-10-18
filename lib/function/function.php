@@ -481,6 +481,9 @@
                 if($current_date['ch_date'] < $check_date){
                     $patient_data .= "<h4 class='badge bg-danger'>Patient's Channel Date is Past</h4>";
                 }
+                if($current_date['ch_date'] > $check_date){
+                    $patient_data .= "<h4 class='badge bg-info'>Have some Days to Channel</h4>";
+                }
                     
     $patient_data .= " </div>
             </div>
