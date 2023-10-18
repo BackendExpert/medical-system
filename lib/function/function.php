@@ -154,7 +154,7 @@
                                 $patient .="<td><a href='patient/book_adate.php?id=".$row['id']."'><button class='btn btn-danger'>Book another Date</button></a></td>";
                             }
                             elseif($next_ch_date_r['ch_date'] > $check_date){
-                                $patient .="<td>Have More Days</td>";
+                                $patient .="<td><span style='color:blue;'>Have More Days</span> <br><a href='patient/book_adate.php?id=".$row['id']."'><button class='btn btn-info'>Book another Date</button></a></td>";
                             }
 
                             if($row['gender'] == "male"){
