@@ -422,6 +422,9 @@
 
     function delay_patient_info(){
         $con = Connection();
+
+        $patient_id = $_GET['id'];
+        echo $patient_id;
     }
 
 ?>
