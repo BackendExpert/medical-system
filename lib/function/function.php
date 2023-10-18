@@ -122,6 +122,9 @@
         $is_table_empty_result = mysqli_query($con, $is_table_empty);
 
         //55555555555555555555
+
+        $currentDate = date('l, F j, Y');
+
         if($is_table_empty_result){
             $empty_row = mysqli_fetch_assoc($is_table_empty_result);
             $id_count = $empty_row['id'];
