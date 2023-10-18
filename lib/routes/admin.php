@@ -246,7 +246,8 @@
       <h3>Date : 
 
       <?php 
-        $currentDate = date('l, F j, Y');
+        // $currentDate = date('l, F j, Y');
+        $currentDate = date("Y-m-d");
         echo $currentDate;
       ?>
 
