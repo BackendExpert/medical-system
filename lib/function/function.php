@@ -451,7 +451,9 @@
             </div>";
 
             $patient_id = $get_patient_row['nic'];
-            $get_current_ch_date = "SELECT * FROM "
+            $get_current_ch_date = "SELECT * FROM channeling_date_tbl WHERE nic='$patient_id'";
+            $get_current_ch_date_result = mysqli_query($con, $get_current_ch_date);
+            $current_date = mysqli_fetch_assoc($get_current_ch_date_result);
 
         $patient_data .= "
 
