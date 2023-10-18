@@ -268,6 +268,15 @@
 
         <br>
 
+        <?php 
+            if(isset($_POST['add_patient'])){
+              $result = update_ch_date($_POST['p_nic']);
+              echo $result;
+            }
+        ?>
+
+
+
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
            <div class="row">
             <div class="col-lg-2">
@@ -275,6 +284,7 @@
             </div>
             <div class="col-lg-1">&nbsp;&nbsp;&nbsp;</div>
             <div class="col-lg-9">
+                <input type="hidden" name="p_id" value="">
                 <input type="date" name="next_ch_date" id="" class="form-control" required>
             </div>
            </div>
