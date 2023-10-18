@@ -455,6 +455,7 @@
             $get_current_ch_date_result = mysqli_query($con, $get_current_ch_date);
             $current_date = mysqli_fetch_assoc($get_current_ch_date_result);
 
+            $check_date = date("Y-m-d");
         $patient_data .= "
             <br>
             <div class='row'>
@@ -474,7 +475,9 @@
                 <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
                 <div class='col-lg-9'>";
 
-                
+                if($current_date['ch_date'] == $check_date){
+                    $patient_data .= "<h4 class='badge bg-success'>Patient's Channal Date is Today</h4>";
+                }
                     
     $patient_data .= " </div>
             </div>
