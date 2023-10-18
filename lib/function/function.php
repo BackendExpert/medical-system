@@ -148,7 +148,7 @@
                             $patient .="<td>".$next_ch_date_r['ch_date']."</td>";
 
                             if($next_ch_date_r['ch_date'] == $check_date){
-                                $patient .="<td><a href=''><button class='btn btn-success'>Channel Patiemt</button></a></td>";
+                                $patient .="<td><a href=''><button class='btn btn-success'>Channel Patient</button></a></td>";
                             }
                             elseif($next_ch_date_r['ch_date'] < $check_date){
                                 $patient .="<td><a href='patient/book_adate.php?id=".$row['id']."'><button class='btn btn-danger'>Book another Date</button></a></td>";
@@ -477,6 +477,9 @@
 
                 if($current_date['ch_date'] == $check_date){
                     $patient_data .= "<h4 class='badge bg-success'>Patient's Channal Date is Today</h4>";
+                }
+                if($current_date['ch_date'] < $check_date){
+
                 }
                     
     $patient_data .= " </div>
