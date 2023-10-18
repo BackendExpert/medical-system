@@ -266,6 +266,8 @@
           delay_patient_info();
         ?>
 
+        <br>
+
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
            <div class="row">
             <div class="col-lg-2">
@@ -276,7 +278,7 @@
                 <input type="date" name="next_ch_date" id="" class="form-control" required>
             </div>
            </div>
-
+            <br>
            <div class="row">
               <div class="col-lg-12">
                   <input type="submit" value="Update The Date" class="btn btn-primary" name="ch_date">
