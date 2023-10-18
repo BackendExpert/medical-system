@@ -116,9 +116,7 @@
 
         $all_patients = "SELECT * FROM patients_tbl";
         $all_patients_result = mysqli_query($con, $all_patients);
-        $all_patients_row = mysqli_fetch_assoc($all_patients_result);
 
-        $p_nic = $all_patients_row['nic'];
 
         $is_table_empty = "SELECT COUNT(*) as id FROM patients_tbl";
         $is_table_empty_result = mysqli_query($con, $is_table_empty);
@@ -137,6 +135,7 @@
             }
             else{
                 while($row = mysqli_fetch_assoc($all_patients_result)){
+                    $p_nic = $row['nic'];
                     $patient = "
                         <tr>
                             <td>".$row['nic']."</td>
