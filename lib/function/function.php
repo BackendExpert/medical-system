@@ -429,7 +429,18 @@
         $get_patient_info_result = mysqli_query($con, $get_patient_info);
         $get_patient_row = mysqli_fetch_assoc($get_patient_info_result);
 
-        $patient_data = "";
+        $patient_data = "
+            <div class='row'>
+                <div class='col-lg-5'>
+                    Patient Name : 
+                </div>
+                <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
+                <div class='col-lg-6'>
+                    <input type='text' class='form-control' value='".$get_patient_row['fname']." &nbsp; ".$get_patient_row['lname']."'>
+                </div>
+            </div>
+        
+        ";
 
         echo $patient_data;
 
