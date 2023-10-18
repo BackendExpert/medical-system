@@ -123,7 +123,7 @@
 
         //55555555555555555555
 
-        $currentDate = date('l, F j, Y');
+        $check_date = date("Y-m-d");
 
         if($is_table_empty_result){
             $empty_row = mysqli_fetch_assoc($is_table_empty_result);
