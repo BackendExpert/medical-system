@@ -473,6 +473,8 @@
                 </div>
                 <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
                 <div class='col-lg-9'>";
+
+                
                     
     $patient_data .= " </div>
             </div>
