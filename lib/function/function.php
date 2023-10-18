@@ -151,7 +151,7 @@
                                 $patient .="<td><a href=''><button class='btn btn-success'>Channel Patiemt</button></a></td>";
                             }
                             elseif($next_ch_date_r['ch_date'] < $check_date){
-                                $patient .="<td><a href='patient/book_adate.php'><button class='btn btn-danger'>Book another Date</button></a></td>";
+                                $patient .="<td><a href='patient/book_adate.php?id=".$row['id']."'><button class='btn btn-danger'>Book another Date</button></a></td>";
                             }
                             elseif($next_ch_date_r['ch_date'] > $check_date){
                                 $patient .="<td>Have More Days</td>";
