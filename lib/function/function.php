@@ -509,7 +509,6 @@
         ";
 
         echo $patient_data;
-
     }
 
 
