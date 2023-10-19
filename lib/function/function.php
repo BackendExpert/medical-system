@@ -515,6 +515,6 @@
     function Update_next_ch_date($p_nic, $next_ch_date){
         $con = Connection();
 
-        $update_next_ch_date = "UPDATE patients_tbl SET mobile_no = '$patient_mobile' WHERE nic='$patient_nic'";
+        $update_next_ch_date = "UPDATE channeling_date_tbl SET ch_date = '$next_ch_date' WHERE nic='$p_nic'";
     }
 ?>
