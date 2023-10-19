@@ -512,4 +512,8 @@
 
     }
 
+
+    function Update_next_ch_date($p_nic, $next_ch_date){
+        $con = Connection();
+    }
 ?>
