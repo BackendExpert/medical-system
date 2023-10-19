@@ -489,15 +489,21 @@
             </div>
             <br>
             <form action='' method='POST'>
-            <div class='row'>                
-                <div class='col-lg-2'>
-                    Set Anther Date : 
+                <div class='row'>                
+                    <div class='col-lg-2'>
+                        Set Anther Date : 
+                    </div>
+                    <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
+                    <div class='col-lg-9'>
+                        <input type='date' class='form-control' name='ch_next_date' required>
+                    </div>                
                 </div>
-                <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
-                <div class='col-lg-9'>
-                    <input type='date' class='form-control' name='ch_next_date' required>
-                </div>                
-            </div>
+                <br>
+                <div class='row'>
+                    <div class='col-lg-12'>
+                        <input type='submit' name='update_next_ch_date' class='btn btn-primary' value='Update Next Date'>
+                    </div>
+                </div>
             </form>
         ";
 
