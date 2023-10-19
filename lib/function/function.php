@@ -487,10 +487,18 @@
                     
     $patient_data .= " </div>
             </div>
-
-            <div class='row'>
-                <form action='' method='POST'></form>
+            <br>
+            <form action='' method='POST'>
+            <div class='row'>                
+                <div class='col-lg-2'>
+                    Set Anther Date : 
+                </div>
+                <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
+                <div class='col-lg-9'>
+                    <input type='date' class='form-control' name='ch_next_date' required>
+                </div>                
             </div>
+            </form>
         ";
 
         echo $patient_data;
