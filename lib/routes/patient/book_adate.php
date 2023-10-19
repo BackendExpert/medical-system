@@ -262,8 +262,8 @@
 
         <h2>Patient Info.</h2>
         <?php 
-            if(isset($_POST['add_patient'])){
-                $result = add_patient($_POST['p_nic'], $_POST['p_fname'], $_POST['p_lname'],$_POST['gender'],$_POST['p_mobile'],$_POST['p_address'],$_POST['p_given_medi'],$_POST['next_ch_date']);
+            if(isset($_POST['update_next_ch_date'])){
+                $result = add_patient($_POST[''], $_POST['']);
                 echo $result;
             }
         ?>
