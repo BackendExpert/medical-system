@@ -263,7 +263,7 @@
         <h2>Patient Info.</h2>
         <?php 
             if(isset($_POST['update_next_ch_date'])){
-                $result = add_patient($_POST[''], $_POST['']);
+                $result = Update_next_ch_date($_POST['p_nic'], $_POST['ch_next_date']);
                 echo $result;
             }
         ?>
