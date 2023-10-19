@@ -517,5 +517,11 @@
 
         $update_next_ch_date = "UPDATE channeling_date_tbl SET ch_date = '$next_ch_date' WHERE nic='$p_nic'";
         $update_next_ch_date_result = mysqli_query($con, $update_next_ch_date);
+
+        echo "
+        <script>
+            window.location = '../patients.php';
+        </script>
+        ";
     }
 ?>
