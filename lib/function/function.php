@@ -495,6 +495,7 @@
                     </div>
                     <div class='col-lg-1'>&nbsp;&nbsp;&nbsp;</div>
                     <div class='col-lg-9'>
+                        <input type='hidden' name='p_nic' value='".$get_patient_row['nic']."'>
                         <input type='date' class='form-control' name='ch_next_date' required>
                     </div>                
                 </div>
