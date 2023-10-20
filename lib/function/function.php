@@ -525,7 +525,7 @@
         ";
     }
 
-    function patient_search(){
+    function patient_search($patient_nic){
         $con = Connection();
     }
 ?>
