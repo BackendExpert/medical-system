@@ -20,13 +20,13 @@ This Online Medical System is developed for management patients when in the chan
 ## Releases
 
 ### 3. Version 1.1.0-beta1 (20 October 2023)
-- Release Date : 18 October 2023
+- Release Date: 18 October 2023
 - Developed the System
 - Pre-Release Version
 - Basic functions of the System
 - Updating to Version 1.1.0 Release
 - adding Patient Search function and updating
-- Patient Search fucntion is still development
+- Patient Search function is still in development
 - adding SQL file to Repo [db/medical_system_db.sql](https://github.com/BackendExpert/medical-system/blob/master/db/medical_system_db.sql)
 
 ### 2. Version 1.1.0-alpha1 (18 October 2023)
