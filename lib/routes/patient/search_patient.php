@@ -262,7 +262,11 @@
 
         <?php 
 
-        //search and data in same file in next release
+
+            if(isset($_POST['patient_search'])){
+                $result = patient_search($_POST['nic_p']);
+                echo $result;
+            }
 
         ?>
 
