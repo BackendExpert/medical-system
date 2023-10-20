@@ -27,6 +27,7 @@ This Online Medical System is developed for management patients when in the chan
 - Updating to Version 1.1.0 Release
 - adding Patient Search function and updating
 - Patient Search fucntion is still development
+- adding SQL file to Repo
 
 ### 2. Version 1.1.0-alpha1 (18 October 2023)
 - Release Date : 18 October 2023
