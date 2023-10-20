@@ -268,15 +268,17 @@
 
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
         <div class="row">
-            <div class="col-lg-12">
-                Search By NIC : 
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-5">
+                Search By NIC : <br>
                 <input type="text" name="nic_p" id="" class="form-control" placeholder="Serach By NIC">
             </div>
+            <div class="col-lg-1">&nbsp;&nbsp;&nbsp;</div>
+            <div class="col-lg-6">
+                <input type="submit" value="Search Patient" class="btn btn-success" name="patient_search">
+            </div>
         </div>
+
+
         </form>
             <br>
 
