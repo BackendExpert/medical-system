@@ -262,10 +262,12 @@
 
         <?php 
 
+        //search and data in same file in next release
+
         ?>
 
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
-           
+           <input type="text" name="nic_p" id="" class="form-control" placeholder="Serach By NIC">
         </form>
             <br>
 
