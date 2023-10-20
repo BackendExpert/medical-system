@@ -524,4 +524,8 @@
         </script>
         ";
     }
+
+    function patient_search(){
+        $con = Connection();
+    }
 ?>
