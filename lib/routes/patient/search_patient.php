@@ -267,7 +267,16 @@
         ?>
 
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
-           <input type="text" name="nic_p" id="" class="form-control" placeholder="Serach By NIC">
+        <div class="row">
+            <div class="col-lg-12">
+                Search By NIC : 
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <input type="text" name="nic_p" id="" class="form-control" placeholder="Serach By NIC">
+            </div>
+        </div>
         </form>
             <br>
 
