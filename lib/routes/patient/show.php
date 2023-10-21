@@ -260,7 +260,7 @@
       <a href="../patients.php"><button class="btn btn-primary">Back</button></a>
       <a href="edit.php?id=<?php patient_nic(); ?>"><button class="btn btn-warning"><i class="fas fa-pen"></i> Edit Data</button></a>
       <a href="body_condition.php?id=<?php patient_nic(); ?>"><button class="btn btn-info"><i class="fas fa-child"></i> Body Condition</button></a>
-      <a href="al_medicine.php?id=<?php patient_nic(); ?>"><button class="btn btn-info"><i class="fas fa-child"></i> Allergic Medicine</button></a>
+      <a href="al_medicine.php?id=<?php patient_nic(); ?>"><button class="btn btn-info"><i class="fas fa-capsules"></i> Allergic Medicine</button></a>
       
       <hr>
 
