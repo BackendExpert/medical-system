@@ -257,7 +257,7 @@
 
       </h4>
       <br>
-      <a href="../patients.php"><button class="btn btn-primary">Back</button></a>
+      <a href="../show.php?id=<?php patient_nic(); ?>"><button class="btn btn-primary">Back</button></a>
       <hr>
 
         <?php 
