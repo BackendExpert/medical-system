@@ -259,7 +259,7 @@
       <br>
       <a href="../patients.php"><button class="btn btn-primary">Back</button></a>
       <a href="edit.php?id=<?php patient_nic(); ?>"><button class="btn btn-warning"><i class="fas fa-pen"></i> Edit Data</button></a>
-      <a href="edit.php?id=<?php patient_nic(); ?>"><button class="btn btn-info"><i class="fas fa-pen"></i> Body Condition</button></a>
+      <a href="body_condition.php?id=<?php patient_nic(); ?>"><button class="btn btn-info"><i class="fas fa-pen"></i> Body Condition</button></a>
       
       <hr>
 
