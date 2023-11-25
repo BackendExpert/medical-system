@@ -533,7 +533,9 @@
         $check_patient_nor = mysqli_num_rows($check_patient_reutlt);
 
         if($check_patient_nor > 0){
-            $_SESSION['patient_search_id'] = $patient_nic;
+            function test(){
+                echo "HI";
+            }
         }
         else{
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
