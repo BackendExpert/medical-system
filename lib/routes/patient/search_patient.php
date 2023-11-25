@@ -274,7 +274,7 @@
         <div class="row">
             <div class="col-lg-5">
                 Search By NIC : <br>
-                <input type="text" name="nic_p" id="" class="form-control" placeholder="Serach By NIC">
+                <input type="text" name="nic_p" id="" class="form-control" placeholder="Serach By NIC" required>
             </div>
             <div class="col-lg-1">&nbsp;&nbsp;&nbsp;</div>
             <div class="col-lg-6">
@@ -283,6 +283,8 @@
         </div>
         </form>
             <br>
+
+          <?php test(); ?>
 
 
     </main>
