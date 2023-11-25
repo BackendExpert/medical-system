@@ -553,7 +553,22 @@
         $select_patient_result = mysqli_query($con, $select_patient);
         $select_patient_row = mysqli_fetch_assoc($select_patient_result);
 
-        $view_patient = "";
+        $view_patient = "
+            <table class='table'>
+                <tr>
+                    <td>Patient NIC Number </td>
+                    <td><b>".$select_patient_row['nic']."</b></td>
+                </tr>
+                <tr>
+                    <td>Patient First Name </td>
+                    <td><b>".$select_patient_row['fname']."</b></td>
+                </tr>
+                <tr>
+                    <td>Patient Last Name </td>
+                    <td><b>".$select_patient_row['lname']."</b></td>
+                </tr>
+            </table>
+        ";
 
         echo $view_patient;
     }
