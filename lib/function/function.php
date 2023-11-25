@@ -546,7 +546,7 @@
     function patient_data_search(){
         $con = Connection();
 
-        $patient_data_nic = strval($patient_search_id);
+        $patient_data_nic = strval($_SESSION['patient_search_id']);
         echo $patient_data_nic;
     }
 ?>
