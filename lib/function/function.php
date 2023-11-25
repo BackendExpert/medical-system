@@ -552,5 +552,9 @@
         $select_patient = "SELECT * FROM patients_tbl WHERE nic = '$patient_data_nic'";
         $select_patient_result = mysqli_query($con, $select_patient);
         $select_patient_row = mysqli_fetch_assoc($select_patient_result);
+
+        $view_patient = "";
+
+        echo $view_patient;
     }
 ?>
