@@ -548,6 +548,9 @@
         $con = Connection();
 
         $patient_data_nic = strval($_SESSION['patient_search_id']);
-        echo $patient_data_nic;
+
+        $select_patient = "SELECT * FROM patients_tbl WHERE nic = '$patient_data_nic'";
+        $select_patient_result = mysqli_query($con, $select_patient);
+
     }
 ?>
