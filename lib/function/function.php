@@ -527,5 +527,20 @@
 
     function patient_search($patient_nic){
         $con = Connection();
+
+        $check_patient = "SELECT * FROM patients_tbl WHERE nic = '$patient_nic'";
+        $check_patient_reutlt = mysqli_query($con, $check_patient);
+        $check_patient_nor = mysqli_num_rows($check_patient_reutlt);
+
+        if($check_patient_nor > 0){
+            $_SESSION['patient_search_id'] = $patient_nic;
+        }
+        else{
+            return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
+                    <strong>ERROR : </strong> Patient Not Found...!
+                    <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+            </div>";
+        }
+        
     }
 ?>
