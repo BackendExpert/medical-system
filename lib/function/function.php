@@ -531,9 +531,10 @@
         $check_patient = "SELECT * FROM patients_tbl WHERE nic = '$patient_nic'";
         $check_patient_reutlt = mysqli_query($con, $check_patient);
         $check_patient_nor = mysqli_num_rows($check_patient_reutlt);
+        $check_patient_row = mysqli_fetch_assoc($check_patient_reutlt);
 
         if($check_patient_nor > 0){
-            $_SESSION['patient_search_id'] = $patient_nic;
+            $_SESSION['patient_search_id'] = $check_patient_row('nic');
         }
         else{
             return  "<div class='alert alert-danger alert-dismissible fade show' role='alert'>

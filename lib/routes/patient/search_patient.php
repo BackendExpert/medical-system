@@ -284,7 +284,15 @@
         </form>
             <br>
 
-          <?php patient_data_search(); ?>
+          <?php 
+            if(empty(isset($_POST['patient_search']))){
+              return false;
+            }
+            else{
+              patient_data_search();
+            }
+          
+          ?>
 
 
     </main>
