@@ -284,7 +284,7 @@
         </form>
             <br>
 
-          <?php test(); ?>
+          <?php patient_data_search(); ?>
 
 
     </main>
