@@ -540,7 +540,10 @@
                     <strong>ERROR : </strong> Patient Not Found...!
                     <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
             </div>";
-        }
-        
+        }        
+    }
+
+    function patient_data_search(){
+        $con = Connection();
     }
 ?>
