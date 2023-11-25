@@ -281,8 +281,6 @@
                 <input type="submit" value="Search Patient" class="btn btn-success" name="patient_search">
             </div>
         </div>
-
-
         </form>
             <br>
 
