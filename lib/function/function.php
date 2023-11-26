@@ -586,6 +586,11 @@
                     <td>Patient Address</td>
                     <td><b>".$select_patient_row['address']."</b></td>
                 </tr>
+                <tr>
+                    <td>Join Date</td>
+                    <td><b>".$select_patient_row['join_at']."</b></td>
+                </tr>
+
             </table>
         ";
 
