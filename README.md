@@ -19,10 +19,10 @@ This Online Medical System is developed for management patients when in the chan
 
 ## Releases
 
-### 3. Version 1.1.0-beta1 (20 October 2023)
-- Release Date: 20 October 2023
+### 3. Version 1.1.0 (26 November 2023)
+- Release Date: 26 November 2023
 - Developed the System
-- Pre-Release Version
+- 1.1.0 Version
 - Basic functions of the System
 - Updating to Version 1.1.0 Release
 - adding Patient Search function and updating
