@@ -566,6 +566,17 @@
                 <tr>
                     <td>Patient Last Name </td>
                     <td><b>".$select_patient_row['lname']."</b></td>
+                </tr>                
+                <tr>
+                    <td>Patient Gender </td>
+                    <td><b>";
+                        if($select_patient_row['gender'] == 'male'){
+                            $view_patient .= "<i class='fas fa-male'></i> Male";
+                        }
+                        elseif($select_patient_row['gender'] == 'female'){
+                            $view_patient .= "<i class='fas fa-female'></i> Female";
+                        }
+    $view_patient .= "</b></td>
                 </tr>
             </table>
         ";
