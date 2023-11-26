@@ -580,7 +580,11 @@
                 </tr>
                 <tr>
                     <td>Patient Mobile Number</td>
-                    <td>".$select_patient_row['mobile_no']."</td>
+                    <td><b>".$select_patient_row['mobile_no']."</b></td>
+                </tr>
+                <tr>
+                    <td>Patient Address</td>
+                    <td><b>".$select_patient_row['address']."</b></td>
                 </tr>
             </table>
         ";
