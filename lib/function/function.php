@@ -590,6 +590,11 @@
                     <td>Join Date</td>
                     <td><b>".$select_patient_row['join_at']."</b></td>
                 </tr>
+                <tr>
+                    <td colspan='2'>
+                        <a href=''><button class='btn btn-primary'>More Info</button></a>
+                    </td>
+                <tr>
 
             </table>
         ";
