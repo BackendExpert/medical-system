@@ -578,6 +578,10 @@
                         }
     $view_patient .= "</b></td>
                 </tr>
+                <tr>
+                    <td>Patient Mobile Number</td>
+                    <td>".$select_patient_row['mobile_no']."</td>
+                </tr>
             </table>
         ";
 
