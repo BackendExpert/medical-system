@@ -592,7 +592,7 @@
                 </tr>
                 <tr>
                     <td colspan='2'>
-                        <a href='show.php'><button class='btn btn-primary'>More Info</button></a>
+                        <a href='show.php?id=".$select_patient_row['id']."'><button class='btn btn-primary'>More Info</button></a>
                     </td>
                 <tr>
 
