@@ -19,6 +19,12 @@ This Online Medical System is developed for management patients when in the chan
 
 ## Releases
 
+### 5. Version 1.2.0-alpha1 (27 November 2023)
+- Release Date: 27 November 2023
+- Developed the System
+- 1.2.0 Version
+- adding Patient Body Condition still development
+
 ### 4. Version 1.1.0 (26 November 2023)
 - Release Date: 26 November 2023
 - Developed the System
