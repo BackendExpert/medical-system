@@ -604,5 +604,10 @@
 
     function patient_body_condition(){
         $con = Connection();
+
+        $patient_nic = strval($_SESSION['patient_search_id']);
+
+        $select_data = "SELECT * FROM patients_tbl WHERE nic = '$patient_id'";
+        $select_data_result = mysqli_query($con, $select_data);
     }
 ?>
