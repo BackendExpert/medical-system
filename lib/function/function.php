@@ -601,4 +601,8 @@
 
         echo $view_patient;
     }
+
+    function patient_body_condition(){
+        $con = Connection();
+    }
 ?>
