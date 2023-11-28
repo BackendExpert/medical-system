@@ -269,15 +269,6 @@
             }
 
         ?>
-                  <?php 
-            if(empty(isset($_POST['patient_search']))){
-              return false;
-            }
-            else{
-              patient_data_search();
-            }
-          
-          ?>
 
         <form action="<?php echo($_SERVER['PHP_SELF']); ?>" method="POST">
         <div class="row">
@@ -292,6 +283,16 @@
         </div>
         </form>
             <br>
+
+          <?php
+            if(empty(isset($_POST['patient_search']))){
+              return false;
+            }
+            else{
+              patient_data_search();
+            }
+          
+          ?>
 
 
 
